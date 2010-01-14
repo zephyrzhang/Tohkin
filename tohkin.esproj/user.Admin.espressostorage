@@ -5,13 +5,13 @@
 	<key>ESProjectWindowState</key>
 	<dict>
 		<key>ContentSize</key>
-		<string>{1162, 647}</string>
+		<string>{1187, 663}</string>
 		<key>ProjectURL</key>
 		<string>file://localhost/Library/WebServer/Documents/tohkin/tohkin.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{18, 866}</string>
+		<string>{102, 841}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
 	<false/>
@@ -20,32 +20,11 @@
 		<key>ExpandedURLs</key>
 		<array>
 			<string>file://localhost/Library/WebServer/Documents/tohkin/css</string>
+			<string>file://localhost/Library/WebServer/Documents/tohkin/img</string>
 		</array>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
 	<false/>
-	<key>com.macrabbit.Espresso.Workspace.Tabs</key>
-	<dict>
-		<key>Tabs</key>
-		<array>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Library/WebServer/Documents/tohkin/index.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Library/WebServer/Documents/tohkin/css/global.css</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>StateType</key>
-				<string>PreviewTab</string>
-			</dict>
-		</array>
-	</dict>
 	<key>com.macrabbit.Espresso.WorkspaceTabs.DisclosureCollapsed</key>
 	<false/>
 </dict>
