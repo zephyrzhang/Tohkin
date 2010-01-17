@@ -1,4 +1,4 @@
-/* CSS Document Copyright © 2009 ZephyrZhang All Rights Reserved*/
+/* CSS Document Copyright 2009 ZephyrZhang All Rights Reserved*/
 /* Global Style */
 
 * { margin: 0; padding: 0;}
@@ -15,27 +15,67 @@ a.linkinp { color: #cc0000; text-decoration: underline;}
 a img { border: 0;}
 .clear{ height: 0; clear: both;}
 
-/* 主体格式 Copyright © 2009 ZephyrZhang All Rights Reserved */
+/* 主体格式 */
 #wrapper { background-color: #ffffff; width: 900px; height: 400px; margin-left: auto; margin-right: auto; margin-bottom: 50px;}
 #header { width: 900px; height: 80px; background-color: #555555; background: url("../img/logo.png") no-repeat 20px 20px;}
 #searchform { float: right; margin-top: 15px; margin-right: 15px;}
 #searchinput { float: left; width: 120px; height: 17px; border:1px solid #cccccc;}
 #searchbutton { float: left; margin-left:3px}
 
-/* 主导航栏格式 Copyright © 2009 ZephyrZhang All Rights Reserved */
-#mainnav { width: 900px; list-style-type: none;}
-#mainnav li { float:left; cursor:pointer;}
+/* 主导航栏格式 */
+#nav ul { width: 900px; list-style-type: none; position: relative;}
+#nav ul li { float:left; cursor:pointer;}
 #on a { background-position: 0px -32px;}
 .navtxt	{ display: none; }
-.nav01 a { display: block; height: 32px; width: 347px; background: url("../img/mainnavbg.png") no-repeat 0px 0px;}
-.nav01 a:hover { background-position: 0px -34px;}
-.nav02 a { display: block; height: 32px; width: 111px; background: url("../img/mainnavbg.png") no-repeat -347px 0px;}
-.nav02 a:hover { background-position: -347px -34px;}
-.nav03 a { display: block; height: 32px; width: 110px; background: url("../img/mainnavbg.png") no-repeat -458px 0px;}
-.nav03 a:hover { background-position: -458px -34px;}
-.nav04 a { display: block; height: 32px; width: 110px; background: url("../img/mainnavbg.png") no-repeat -568px 0px;}
-.nav04 a:hover { background-position: -568px -34px;}
-.nav05 a { display: block; height: 32px; width: 110px; background: url("../img/mainnavbg.png") no-repeat -678px 0px;}
-.nav05 a:hover { background-position: -678px -34px;}
-.nav06 a { display: block; height: 32px; width: 112px; background: url("../img/mainnavbg.png") no-repeat -788px 0px;}
-.nav06 a:hover { background-position: -788px -34px;}
+.sf-sub-indicator	{ display: none; }
+#nav01 { display: block; height: 32px; width: 347px; background: url("../img/mainnavbg.png") no-repeat 0px 0px;}
+#nav01:hover { background-position: 0px -34px;}
+#nav02 { display: block; height: 32px; width: 111px; background: url("../img/mainnavbg.png") no-repeat -347px 0px;}
+#nav02:hover { background-position: -347px -34px;}
+#nav03 { display: block; height: 32px; width: 110px; background: url("../img/mainnavbg.png") no-repeat -458px 0px;}
+#nav03:hover { background-position: -458px -34px;}
+#nav04 { display: block; height: 32px; width: 110px; background: url("../img/mainnavbg.png") no-repeat -568px 0px;}
+#nav04:hover { background-position: -568px -34px;}
+#nav05 { display: block; height: 32px; width: 110px; background: url("../img/mainnavbg.png") no-repeat -678px 0px;}
+#nav05:hover { background-position: -678px -34px;}
+#nav06 { display: block; height: 32px; width: 112px; background: url("../img/mainnavbg.png") no-repeat -788px 0px;}
+#nav06:hover { background-position: -788px -34px;}
+
+
+
+								
+			/* ----- dropdown list */
+			
+			#nav ul li.dropdown ul {
+				display: none;
+				position: absolute;
+				border-width: 0px 1px 1px 1px;
+				border-color: #fff #e8e8e8 #e8e8e8;
+				border-style: solid;
+				background: #fff;
+				width: 200px;
+				padding: 0;
+				margin: 0;
+				}	
+				
+				#nav ul li.dropdown ul li {
+					float: left;
+					display: block; }
+				
+				#nav ul li.dropdown ul li a {
+					text-indent: 10px;
+					color: #888;
+					float: left;
+					display: inline;
+					border-style: none;
+					border-color: #e8e8e8;
+					border-width: 0px;
+					padding: 5px 0;
+					margin: 0;
+					width: 200px;
+					font-weight: bold;
+					font-size: 90%; }
+					
+					#nav ul li.dropdown ul li a:hover { 
+						background: #e8e8e8;
+						border: 0px; }

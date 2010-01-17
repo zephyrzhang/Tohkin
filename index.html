@@ -6,6 +6,9 @@
 	<meta http-equiv="content-script-type" content="text/javascript">
 	<title>Tohkin Group</title>
 	<link rel="stylesheet" type="text/css" href="css/global.css"/>
+	<script src="js/jquery-1.2.6.min.js" type="text/javascript"></script> 
+	<script src="js/nestliving.js" type="text/javascript"></script> 
+	<script src="js/superfish.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="wrapper">
@@ -17,16 +20,50 @@
 		    <input id="searchbutton" type="image" name="sa" value="Search" src="img/searchbt.png" style="margin-bottom:0px;">
 		    <div class="clear"></div>
 		</form>
-	</div>
-	<ul id="mainnav">
-		<li class="nav01"><a href="#" title="首页"><span class="navtxt">首页</span></a></li>
-		<li class="nav02"><a href="#" title="关于我们"><span class="navtxt">关于我们</span></a></li>
-		<li class="nav03"><a href="#" title="集团业务"><span class="navtxt">集团业务</span></a></li>
-		<li class="nav04"><a href="#" title="社会责任"><span class="navtxt">社会责任</span></a></li>
-		<li class="nav05"><a href="#" title="新闻中心"><span class="navtxt">新闻中心</span></a></li>
-		<li class="nav06"><a href="#" title="人力资源"><span class="navtxt">人力资源</span></a></li>
-		<div class="clear"></div>
-	</ul>
-</div>
+	</div><!--end header-->
+	<div id="nav">
+		<ul>
+			<li class="dropdown"><a href="#" title="首页" id="nav01"><span class="navtxt">首页</span></a></li>
+			<li class="dropdown"><a href="#" title="关于我们" id="nav02"><span class="navtxt">关于我们</span></a>
+				<ul>
+					<li><a href="#" title="欢迎辞"><span class="navtxt">欢迎辞</span></a></li>
+					<li><a href="#" title="集团简介"><span class="navtxt">集团简介</span></a></li>
+					<li><a href="#" title="经营理念"><span class="navtxt">经营理念</span></a></li>
+					<li><a href="#" title="VI介绍"><span class="navtxt">VI介绍</span></a></li>
+				</ul>
+			</li>
+			<li class="dropdown"><a href="#" title="集团业务" id="nav03"><span class="navtxt">集团业务</span></a>
+				<ul>
+					<li><a href="#" title="制造业"><span class="navtxt">制造业</span></a></li>
+					<li><a href="#" title="贸易"><span class="navtxt">贸易</span></a></li>
+					<li><a href="#" title="服务"><span class="navtxt">服务</span></a></li>
+					<li><a href="#" title="资产"><span class="navtxt">资产</span></a></li>
+				</ul>
+			</li>
+			<li class="dropdown"><a href="#" title="社会责任" id="nav04"><span class="navtxt">社会责任</span></a>
+				<ul>
+					<li><a href="#" title="绿色东锦"><span <!--class="navtxt"-->>绿色东锦</span></a></li>
+					<li><a href="#" title="可持续发展"><span <!--class="navtxt"-->>可持续发展</span></a></li>
+					<li><a href="#" title="捐助"><span <!--class="navtxt"-->>捐助</span></a></li>
+				</ul>
+			</li>
+			<li class="dropdown"><a href="#" title="新闻中心" id="nav05"><span class="navtxt">新闻中心</span></a>
+				<ul>
+					<li><a href="#" title="最新动态"><span class="navtxt">最新动态</span></a></li>
+					<li><a href="#" title="大事记"><span class="navtxt">大事记</span></a></li>
+					<li><a href="#" title="问答FAQ"><span class="navtxt">问答FAQ</span></a></li>
+				</ul>
+			</li>
+			<li class="dropdown"><a href="#" title="人力资源" id="nav06"><span class="navtxt">人力资源</span></a>
+				<ul>
+					<li><a href="#" title="求职信息"><span class="navtxt">求职信息</span></a></li>
+					<li><a href="#" title="员工生活"><span class="navtxt">员工生活</span></a></li>
+					<li><a href="#" title="锦园介绍"><span class="navtxt">锦园介绍</span></a></li>
+				</ul>
+			</li>
+			<div class="clear"></div>
+		</ul>
+	</div><!--end nav-->
+</div><!--end wrapper-->
 </body>
 </html>
