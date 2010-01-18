@@ -35,6 +35,4 @@ a img { border: 0;}
 .nav ul li.dropdown ul li a { text-indent: 31px; color: #555555; line-height: 25px; text-align: left;}
 .nav ul li.dropdown ul li a:hover { color: #55a4db;}
 
-#mainbody{
-	width: 900px; height: 400px; background: url("../img/test.png") no-repeat 0 0;
-}
+#mainbody{ width: 900px; height: 400px; background: url("../img/test.png") no-repeat 0 0;}
