@@ -23,58 +23,15 @@ a img { border: 0;}
 #searchbutton { float: left; margin-left:3px}
 
 /* 主导航栏格式 */
-.navtxt	{ display: none; }
-.sf-sub-indicator	{ display: none; }
+.navtxt	{ display: none;}
+.sf-sub-indicator	{ display: none;}
 
-#nav ul { width: 900px; list-style-type: none; position: relative;}
-#nav ul li { float:left; cursor:pointer;}
-.nav01 { display: block; height: 32px; width: 347px; background: url("../img/mainnavbg.png") no-repeat 0px 0px;}
-.nav01:hover { background-position: 0px -34px;}
-#nav01_on { background-position: 0px -34px;}
-.nav02 { display: block; height: 32px; width: 111px; background: url("../img/mainnavbg.png") no-repeat -347px 0px;}
-.nav02:hover { background-position: -347px -34px;}
-#nav02_on { background-position: -347px -34px;}
-.nav03 { display: block; height: 32px; width: 110px; background: url("../img/mainnavbg.png") no-repeat -458px 0px;}
-.nav03:hover { background-position: -458px -34px;}
-#nav03_on { background-position: -458px -34px;}
-.nav04 { display: block; height: 32px; width: 110px; background: url("../img/mainnavbg.png") no-repeat -568px 0px;}
-.nav04:hover { background-position: -568px -34px;}
-#nav04_on { background-position: -568px -34px;}
-.nav05 { display: block; height: 32px; width: 110px; background: url("../img/mainnavbg.png") no-repeat -678px 0px;}
-.nav05:hover { background-position: -678px -34px;}
-#nav05_on { background-position: -678px -34px;}
-.nav06 { display: block; height: 32px; width: 112px; background: url("../img/mainnavbg.png") no-repeat -788px 0px;}
-.nav06:hover { background-position: -788px -34px;}
-#nav06_on { background-position: -788px -34px;}
-
-#nav ul li.dropdown ul {
-				display: none;
-				position: absolute;
-				border-width: 0px 1px 1px 1px;
-				border-color: #fff #e8e8e8 #e8e8e8;
-				border-style: solid;
-				width: 200px;
-				padding: 0;
-				margin: 0;
-				}	
-				
-				#nav ul li.dropdown ul li {
-					float: left;
-					display: block; }
-				
-				#nav ul li.dropdown ul li a {
-					text-indent: 10px;
-					color: #888;
-					float: left;
-					display: inline;
-					border-style: none;
-					border-color: #e8e8e8;
-					border-width: 0px;
-					padding: 5px 0;
-					margin: 0;
-					width: 200px;
-					font-size: 0.75em; }
-					
-					#nav ul li.dropdown ul li a:hover { 
-						background: #e8e8e8;
-						border: 0px; }
+#nav { width: 900px; height: 32px; background: url("../img/mainnavbg.png") no-repeat 0 0;}
+#nav ul {list-style-type: none; position: relative; margin-left:240px;}
+#nav ul li { float:left; cursor:pointer; font-size: 0.75em; text-align: center;}
+#nav ul li a { display: block; height: 32px; width: 110px; line-height: 25px; color: #555555; text-decoration: none;}
+#nav ul li a:hover { color: #55a4db;}
+#nav ul li.dropdown ul { display: none; position: absolute; border-width: 0px 1px 1px 1px; border-color: #fff #e8e8e8 #e8e8e8; border-style: solid; width: 200px; padding: 0; margin: 0;}	
+#nav ul li.dropdown ul li { float: left; display: block;}
+#nav ul li.dropdown ul li a { text-indent: 10px; color: #888; float: left; display: inline; border-style: none; border-color: #e8e8e8; border-width: 0px; padding: 5px 0; margin: 0; width: 200px;}
+#nav ul li.dropdown ul li a:hover { background: #e8e8e8; border: 0px;}
