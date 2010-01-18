@@ -78,3 +78,5 @@ a img { border: 0;}
 					#nav ul li.dropdown ul li a:hover { 
 						background: #e8e8e8;
 						border: 0px; }
+						
+#mainbody { width: 900px; height: 400px; background: url("../img/test.png") no-repeat 0px 0px;}
