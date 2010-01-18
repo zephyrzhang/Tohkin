@@ -23,15 +23,18 @@ a img { border: 0;}
 #searchbutton { float: left; margin-left:3px}
 
 /* 主导航栏格式 */
-.navtxt	{ display: none;}
+#navon { color: #55a4db;}
 .sf-sub-indicator	{ display: none;}
+.nav { font-size: 0.75em; width: 900px; height: 32px; background: url("../img/mainnavbg.png") no-repeat 0 0;}
+.nav ul {list-style-type: none; position: relative; margin-left:238px;}
+.nav ul li { float:left; cursor:pointer; text-align: center;}
+.nav ul li a { display: block; height: 32px; width: 110px; line-height: 25px; color: #555555; text-decoration: none; font-weight: bolder;}
+.nav ul li a:hover { color: #55a4db;}
+.nav ul li.dropdown ul { display: none; position: absolute; border: 1px solid #cccccc; width: 112px; padding: 0 0 5px 0; margin: -33px 0 0 -1px; background: url("../img/dropnavbg.png") no-repeat 0 0;}	
+.nav ul li.dropdown ul li { float: left; display: block;}
+.nav ul li.dropdown ul li a { text-indent: 31px; color: #555555; line-height: 25px; text-align: left;}
+.nav ul li.dropdown ul li a:hover { color: #55a4db;}
 
-#nav { font-size: 0.75em; width: 900px; height: 32px; background: url("../img/mainnavbg.png") no-repeat 0 0;}
-#nav ul {list-style-type: none; position: relative; margin-left:240px;}
-#nav ul li { float:left; cursor:pointer; text-align: center;}
-#nav ul li a { display: block; height: 32px; width: 110px; line-height: 25px; color: #555555; text-decoration: none; font-weight: bold;}
-#nav ul li a:hover { color: #55a4db;}
-#nav ul li.dropdown ul { display: none; position: absolute; border-width: 0px 1px 1px 1px; border-color: #ffffff #cccccc #cccccc; border-style: solid; width: 111px; padding: 0; margin: 0 0 0 -3px;}	
-#nav ul li.dropdown ul li { float: left; display: block;}
-#nav ul li.dropdown ul li a { text-indent: 33px; color: #555555; width: 110px; line-height: 32px; text-align: left;}
-#nav ul li.dropdown ul li a:hover { color: #55a4db;}
+#mainbody{
+	width: 900px; height: 400px; background: url("../img/test.png") no-repeat 0 0;
+}

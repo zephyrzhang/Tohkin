@@ -43,7 +43,7 @@ jQuery(document).ready(function(){
   //  jQuery(this).find("a:first").removeClass("dropped");
   // });
 	
-	jQuery("#nav ul").superfish({
+	jQuery(".nav ul").superfish({
     'speed': 'fast',
     'delay': '200', 
     'onShow': function() {
