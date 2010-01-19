@@ -16,7 +16,7 @@ a img { border: 0;}
 .clear{ height: 0; clear: both;}
 
 /* 主体格式 */
-#wrapper { background-color: #ffffff; width: 900px; height: 400px; margin-left: auto; margin-right: auto; margin-bottom: 50px;}
+#wrapper { background-color: #ffffff; width: 900px; margin-left: auto; margin-right: auto; margin-bottom: 50px;}
 #header { width: 900px; height: 80px; background-color: #555555; background: url("../img/logo.png") no-repeat 20px 20px;}
 #searchform { float: right; margin-top: 15px; margin-right: 15px;}
 #searchinput { float: left; width: 120px; height: 17px; border:1px solid #cccccc;}
@@ -51,10 +51,11 @@ a img { border: 0;}
 				display: none;
 				position: absolute;
 				border-width: 0px 1px 1px 1px;
-				border-color: #fff #e8e8e8 #e8e8e8;
+				border-color: #ffffff #cccccc #cccccc;
 				border-style: solid;
-				width: 200px;
-				padding: 0;
+				background-color: #ffffff;
+				width: 120px;
+				padding: 0 0 0 20px;
 				margin: 0;
 				}	
 				
@@ -64,7 +65,8 @@ a img { border: 0;}
 				
 				#nav ul li.dropdown ul li a {
 					text-indent: 10px;
-					color: #888;
+					color: #333333;
+					font-weight: bolder;
 					float: left;
 					display: inline;
 					border-style: none;
@@ -73,10 +75,10 @@ a img { border: 0;}
 					padding: 5px 0;
 					margin: 0;
 					width: 200px;
-					font-size: 0.75em; }
+					font-size: 0.75em;
+					text-decoration: none;
+					}
 					
-					#nav ul li.dropdown ul li a:hover { 
-						background: #e8e8e8;
-						border: 0px; }
+					#nav ul li.dropdown ul li a:hover { color:#55a4db; text-decoration: none;}
 						
-#mainbody { width: 900px; height: 400px; background: url("../img/test.png") no-repeat 0px 0px;}
+#mainbody { width: 900px; height: 300px; background: url("../img/mainbodybg.png") no-repeat 0px 0px;}
