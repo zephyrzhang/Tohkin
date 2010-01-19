@@ -29,9 +29,9 @@ a img { border: 0;}
 .nav ul li { float:left; cursor:pointer; text-align: center;}
 .nav ul li a { display: block; height: 32px; width: 110px; line-height: 25px; color: #333333; text-decoration: none; font-weight: bolder;}
 .nav ul li a:hover { color: #55a4db;}
-.nav ul li.dropdown ul { display: none; position: absolute; border: 1px solid #cccccc; width: 115px; padding: 0 0 5px 0; margin: -33px 0 0 -1px; background: url("../img/dropnavbg.png") no-repeat 0 0;}	
+.nav ul li.dropdown ul { display: none; position: absolute; border: 1px solid #cccccc; width: 117px; padding: 0 0 5px 0; margin: -33px 0 0 -4px; background: url("../img/dropnavbg.png") no-repeat 0 0;}	
 .nav ul li.dropdown ul li { float: left; display: block;}
-.nav ul li.dropdown ul li a { text-indent: 31px; color: #333333; line-height: 25px; text-align: left;}
+.nav ul li.dropdown ul li a { text-indent: 34px; color: #333333; line-height: 25px; text-align: left;}
 .nav ul li.dropdown ul li a:hover { color: #55a4db;}
 
 #mainbody{ width: 900px; height: 300px; background: url("../img/mainbodybg.png") no-repeat 0 0;}
