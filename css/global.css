@@ -25,11 +25,11 @@ a img { border: 0;}
 #navon { color: #55a4db;}
 .sf-sub-indicator	{ display: none;}
 .nav { font-size: 0.75em; width: 900px; height: 32px; background: url("../img/mainnavbg.png") no-repeat 0 0;}
-.nav ul {list-style-type: none; position: relative; margin-left:238px;}
+.nav ul {list-style-type: none; position: relative; margin-left:235px;}
 .nav ul li { float:left; cursor:pointer; text-align: center;}
 .nav ul li a { display: block; height: 32px; width: 110px; line-height: 25px; color: #333333; text-decoration: none; font-weight: bolder;}
 .nav ul li a:hover { color: #55a4db;}
-.nav ul li.dropdown ul { display: none; position: absolute; border: 1px solid #cccccc; width: 112px; padding: 0 0 5px 0; margin: -33px 0 0 -1px; background: url("../img/dropnavbg.png") no-repeat 0 0;}	
+.nav ul li.dropdown ul { display: none; position: absolute; border: 1px solid #cccccc; width: 115px; padding: 0 0 5px 0; margin: -33px 0 0 -1px; background: url("../img/dropnavbg.png") no-repeat 0 0;}	
 .nav ul li.dropdown ul li { float: left; display: block;}
 .nav ul li.dropdown ul li a { text-indent: 31px; color: #333333; line-height: 25px; text-align: left;}
 .nav ul li.dropdown ul li a:hover { color: #55a4db;}
