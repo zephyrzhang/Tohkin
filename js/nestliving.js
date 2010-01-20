@@ -1,6 +1,4 @@
-jQuery.noConflict();
- 
-jQuery(document).ready(function(){	
+$(document).ready(function(){	
 	
 	// jQuery.each(jQuery.browser, function(i, val) {
 	//   if(i=="mozilla" && jQuery.browser.version.substr(0,3)=="1.9") {
