@@ -23,7 +23,10 @@
         items.each(function(i) {
     
             $(items[i]).mouseover(function() {
-               mOver = true;
+//               mOver = true;
+                mOver   = false;
+                fadeElement(true);
+
             });
             
             $(items[i]).mouseout(function() {
