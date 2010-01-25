@@ -16,6 +16,7 @@ a:hover { color: #777777; text-decoration: none; }
 /* 主体格式 */
 #wrapper { background-color: #ffffff; width: 900px; margin: 0 auto 0 auto; }
 #mainbody{ width: 900px; border-bottom: 4px solid #55a4db; }
+#right { width: 743px; height: 300px; background-color: #cccccc; float: left; margin: 20px 20px 20px 0px; padding-left: 20px; background: url("../img/dotline_v.png") repeat-y 0 0;}
 .dotline { width: 900px; height: 1px; background: url("../img/dotline_h.png") no-repeat 0 0; }
 
 /* 页眉格式 */
@@ -29,13 +30,22 @@ a:hover { color: #777777; text-decoration: none; }
 .sf-sub-indicator	{ display: none; }
 .nav { font-size: 12px; width: 900px; height: 32px; background: url("../img/mainnavbg.png") no-repeat 0 0; }
 .nav ul {list-style-type: none; position: relative; margin-left:235px; z-index: 2; }
-.nav ul li { float:left; cursor:pointer; text-align: center; }
+.nav ul li { float:left; text-align: center; }
 .nav ul li a { display: block; height: 32px; width: 110px; line-height: 25px; color: #333333; text-decoration: none; font-weight: normal; }
 .nav ul li a:hover { color: #55a4db; }
 .nav ul li.dropdown ul { display: none; position: absolute; border: 1px solid #cccccc; width: 117px; padding: 0 0 5px 0; margin: -33px 0 0 -4px; background: url("../img/dropnavbg.png") no-repeat 0 0; z-index: 1; }	
 .nav ul li.dropdown ul li { float: left; display: block; }
 .nav ul li.dropdown ul li a { text-indent: 34px; color: #333333; line-height: 25px; text-align: left; }
 .nav ul li.dropdown ul li a:hover { color: #55a4db; }
+
+/* 副导航栏格式 */
+.subnav { width: 117px; margin: 20px 0 20px 0; float: left; }
+.subnav ul { width: 117px; background: url("../img/dropnavbg.png") no-repeat 0 0; }	
+.subnav ul li { list-style-type: none; text-align: left; text-indent: 23px; }
+.subnav ul li a { display: block; height: 32px; color: #333333; line-height: 25px; }
+.subnav ul li a:hover { color: #55a4db; }
+#subnavtitle { text-indent: 10px; }
+#subon { color: #55a4db; }
 
 /* 页脚格式 */
 #footer { width: 900px; margin: 10px auto 20px auto; color: #777777; font-size: 11px; }
@@ -64,16 +74,34 @@ a:hover { color: #777777; text-decoration: none; }
 
 /* 新闻区域格式 */
 .newszone { width: 330px; float: left; margin: 20px 20px 20px 20px; }
-
 .newstitle { height: 13px; }
-.newstitle img { vertical-align: -18%; }
+.newstitle img { vertical-align: -17%; }
 .newstitle a:link { color: #55a4db; text-decoration: none; }
 .newstitle a:visited { color: #55a4db; text-decoration: none; }
 .newstitle a:hover { color: #55a4db; text-decoration: none; }
-
 .newsdate { color: #55a4db; font-size: 10px; line-height: 18px; margin-right: 5px; float: left; }
 .newszone ul { list-style-type: none; }
 .newszone ul li { padding: 0; margin: 0; }
 .newszone ul li a { width: 260px;font-size: 12px; line-height: 18px; float: left;}
-
 .separator { width: 330px; height: 20px; background: url("../img/dotline_h.png") no-repeat 0 10px; }
+
+/* 新闻中心 CSS Document Copyright 2009 ZephyrZhang All Rights Reserved*/
+
+#historybanner { width: 900px; height: 139px; background: url("../img/historybg.png") no-repeat 0 0; }
+
+/* 时间轴格式 */
+#toolbar { height: 65px; width: 743px; list-style: none; /*position: relative;*/}	
+#toolbar li { text-indent: -9999px; float: left; }
+#toolbar li a { height: 65px; display: block; }
+#toolbar li.active { background-position: 0 -65px; height: 65px; z-index: 10; }
+#toolbar li.inactive { background-position: 0 0; }
+#toolbar li:hover { background-position: 0 -130px; }
+#future { width: 316px; height: 65px; background-image: url("../img/timeline_01.png"); display:block; }
+#ten-tab { width: 105px; background-image: url("../img/timeline_02.png"); }
+#nine-tab { width: 100px; background-image: url("../img/timeline_03.png"); }
+#eight-tab { width: 99px; background-image: url("../img/timeline_04.png"); }
+#seven-tab { width: 123px; background-image: url("../img/timeline_05.png"); }		
+#scroller, .section { height: auto; }	
+#scroller { width: 743px; overflow: hidden; margin: 0 auto; }
+#content { width: 5000px; }
+.section { width: 710px; margin: 20px; float: left;	}
