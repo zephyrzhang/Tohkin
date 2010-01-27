@@ -1,10 +1,12 @@
 /* Global CSS Document Copyright 2009 ZephyrZhang All Rights Reserved*/
 
 * { margin: 0; padding: 0; }
-body { text-align: left; font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, Sans-serif; font-size:12px; color: #333333; background-color: #e8ebef; display: block; position:reletive}
+body { text-align: left; font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, Sans-serif; font-size:12px; color: #333333; background-color: #e8ebef; overflow-y: scroll; }
 p { text-align: justify; font-size: 12px; line-height: 18px; }
 h2 { text-align: justify; font-size: 12px; color: #55a4db; }
-a img { border: 0; }
+img { border: none; outline: none; }
+input { outline: none; }
+a { outline: none; }
 a:link { color: #333333; text-decoration: none; }
 a:visited { color: #333333; text-decoration: none; }
 a:hover { color: #777777; text-decoration: none; }
