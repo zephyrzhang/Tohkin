@@ -3,21 +3,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Tohkin Group</title>
+	<title>Tohkin Group | 大事记</title>
 	<link rel="shortcut icon" href="img/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/global.css"/>
 	<!--[if IE]><link rel="stylesheet" type="text/css" href="css/ie.css"/><![endif]-->
 	<script src="js/jquery-1.2.6.min.js" type="text/javascript"></script>
-	<script src="js/s3Slider.js" type="text/javascript"></script>
 	<script src="js/nestliving.js" type="text/javascript"></script> 
 	<script src="js/superfish.js" type="text/javascript"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#slider1').s3Slider({timeOut: 6000});
-		});
-	</script>
+	<script src="js/fancyzoom.js" type="text/javascript"></script>
+	<script src="js/codaeffects.js" type="text/javascript"></script>
 </head>
-<body>
+<body onload="setupZoom();">
 	<div id="wrapper">
 		<div id="header">
 			<form action="http://www.google.com/cse" id="searchform">
@@ -30,7 +26,7 @@
 		</div><!--end header-->
 		<div class="nav">
 			<ul>
-				<li class="dropdown"><a href="#">首页</a></li>
+				<li class="dropdown"><a href="index.html">首页</a></li>
 				<li class="dropdown"><a href="#">关于我们</a>
 					<ul>
 						<li><a href="#">关于我们</a></li>
@@ -42,12 +38,11 @@
 				</li>
 				<li class="dropdown"><a href="#">集团业务</a>
 					<ul>
-						<li><a href="business_trade.html">集团业务</a></li>
+						<li><a href="#">集团业务</a></li>
 						<li><a href="business_trade.html">贸易</a></li>
-						<li><a href="business_manu.html">制造</a></li>
+						<li><a href="business_manu.html">制造业</a></li>
 						<li><a href="business_capital.html">资产</a></li>
 						<li><a href="business_service.html">服务</a></li>
-						
 					</ul>
 				</li>
 				<li class="dropdown"><a href="#">社会责任</a>
@@ -62,7 +57,7 @@
 					<ul>
 						<li><a href="#">新闻中心</a></li>
 						<li><a href="#">集团动态</a></li>
-						<li><a href="history.html">大事记</a></li>
+						<li><a href="#">大事记</a></li>
 						<li><a href="#">问答FAQ</a></li>
 					</ul>
 				</li>
@@ -77,45 +72,37 @@
 			</ul>
 		</div><!--end nav-->
 		<div id="mainbody">
-			<div id="slider1">
-			    <ul id="slider1Content">
-			        <li class="slider1Image"><img src="img/main01.png"/><span class="hiddentxt">企业文化</span></li>
-			        <li class="slider1Image"><img src="img/main02.png"/><span class="hiddentxt">员工生活</span></li>
-			        <li class="slider1Image"><img src="img/main03.png"/><span class="hiddentxt">产品宣传</span></li>
-			        <div class="clear slider1Image"></div>
-			    </ul>
-			</div>
+			<div id="banner_capital"></div>
 			<div class="dotline"></div>
-			<ul class="featured">
-				<li class="featured01"><a href="#"><span class="hiddentxt">日加满</span></a></li>
-				<li class="featured02"><a href="#"><span class="hiddentxt">娇源</span></a></li>
-				<li class="featured03"><a href="#"><span class="hiddentxt">利弗兰酒</span></a></li>
-				<div class="clear"></div>
-			</ul>
-			<div class="newszone">
-				<div class="newstitle"><a href="#">集团动态 <img src="img/more.png"/></a></div>
+			<div class="subnav">
 				<ul>
-					<li class="separator"></li>
-					<li>
-						<div class="newsdate">2010-01-20</div>
-						<a href="#">上海东锦食品有限公司集团大楼结构封顶，东锦集团官方网站改版工作顺利完成</a>
-						<div class="clear"></div>
-					</li>
-					<li class="separator"></li>
-					<li>
-						<div class="newsdate">2009-06-16</div>
-						<a href="#">东锦饮品苏州公司在吴江汾湖开发区奠基动土</a>
-						<div class="clear"></div>
-					</li>
-					<li class="separator"></li>
-					<li>
-						<div class="newsdate">2009-03-02</div>
-						<a href="#">东锦集团揭牌暨各企业项目书签定仪式在东锦行政楼举行</a>
-						<div class="clear"></div>
-					</li>
+					<li id="subnavtitle"><a href="#">集团业务</a></li>
+					<li><a href="#">贸易</a></li>
+					<li><a href="#">制造</a></li>
+					<li><a href="#" id="subon">资产</a></li>
+					<li><a href="#">服务</a></li>
 				</ul>
-			</div>
-			<div class="clear"></div>
+			</div><!--end subnav-->
+			<div id="right">
+				<div class="company">
+					<div class="companylogo"><img src="img/logo_djsc.png" /></div>
+					<div class="companyintro">
+						<h3>苏州东锦商城物业管理有限公司</h3>
+						<p>苏州东锦商城物业管理有限公司名下的东锦商物公寓建造于1993年，位于旅游名城苏州市中心，伫立于旖旎的干将河畔，与名闻遐迩的观前街商贸中心隔河相望；大楼占地面积3000平方米，建筑面积20000平方米，资产总值3亿。大楼内有国美电器、诺基亚、LG、日本关东建设等全球知名企业入驻。公司连续三年获得苏州市招商引资项目奖。 </p>
+						<p>公司未来的发展目标是要打造苏州市精品商务楼，并通过高水平的专业服务和管理，塑造东锦商城物业服务的金字招牌。</p><br /><br /><br /><br />
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="company">
+					<div class="companylogo"><img src="img/logo_dc.png" /></div>
+					<div class="companyintro">
+						<h3>上海东创生物科技有限公司</h3>
+						<p>上海东创生物科技有限公司以资产和物业管理为主，拥有嘉定区金园四路和金沙江西路两处物业，市值1个多亿。公司未来的发展目标是要在现有资产管理的基础上，充分发挥资产的作用，提高资产对社会的融资能力和抗风险能力，实现集团资源整合。</p><br /><br /><br /><br />
+					</div>
+					<div class="clear"></div>				
+				</div>
+			</div><!--end right-->
+			<dir class="clear"></dir>
 		</div><!--end mainbody-->
 	</div><!--end wrapper-->
 	<div id="footer">

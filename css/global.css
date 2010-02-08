@@ -3,8 +3,11 @@
 * { margin: 0; padding: 0; }
 html { overflow-y: scroll; }
 body { text-align: left; font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, Sans-serif; font-size:12px; color: #333333; background-color: #e8ebef; }
-p { text-align: justify; font-size: 12px; line-height: 18px; }
+p { text-align: justify; font-size: 12px; line-height: 20px; }
 h2 { text-align: justify; font-size: 12px; color: #55a4db; }
+h3 {
+	font-size: 14px; line-height: 3; color: #000000;;
+}
 img { border: none; outline: none; }
 input { outline: none; }
 a { outline: none; }
@@ -19,7 +22,7 @@ a:hover { color: #777777; text-decoration: none; }
 /* 主体格式 */
 #wrapper { background-color: #ffffff; width: 900px; margin: 0 auto 0 auto; }
 #mainbody{ width: 900px; border-bottom: 4px solid #55a4db; }
-#right { width: 743px; height: 300px; background-color: #cccccc; float: left; margin: 20px 20px 20px 0px; padding-left: 20px; background: url("../img/dotline_v.png") repeat-y 0 0;}
+#right { width: 743px; background-color: #cccccc; float: left; margin: 20px 20px 20px 0px; padding-left: 20px; background: url("../img/dotline_v.png") repeat-y 0 0;}
 .dotline { width: 900px; height: 1px; background: url("../img/dotline_h.png") no-repeat 0 0; }
 
 /* 页眉格式 */
@@ -108,3 +111,14 @@ a:hover { color: #777777; text-decoration: none; }
 #scroller { width: 743px; overflow: hidden; margin: 0 auto; }
 #content { width: 5000px; }
 .section { width: 710px; margin: 20px; float: left;	}
+
+/* 集团业务*/
+#banner_trade { width: 900px; height: 180px; background: url("../img/banner_trade.png") no-repeat 0 0; }
+#banner_manu { width: 900px; height: 180px; background: url("../img/banner_manu.png") no-repeat 0 0; }
+#banner_capital { width: 900px; height: 180px; background: url("../img/banner_capital.png") no-repeat 0 0; }
+#banner_service { width: 900px; height: 180px; background: url("../img/banner_service.png") no-repeat 0 0; }
+.companylogo { width: 150px; height: 150px; border: 1px solid #f2f2f2; float: left; margin: 10px 0 0 0; }
+.companyintro { width: 570px; margin-left: 20px; float: left; }
+.companyintro a:link { color: #55a4db; text-decoration: none; }
+.companyintro a:visited { color: #e8ebef; text-decoration: none; }
+.companyintro a:hover { color: #777777; text-decoration: none; }
