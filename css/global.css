@@ -120,5 +120,5 @@ a:hover { color: #777777; text-decoration: none; }
 .companylogo { width: 150px; height: 150px; border: 1px solid #f2f2f2; float: left; margin: 10px 0 0 0; }
 .companyintro { width: 570px; margin-left: 20px; float: left; }
 .companyintro a:link { color: #55a4db; text-decoration: none; }
-.companyintro a:visited { color: #e8ebef; text-decoration: none; }
+.companyintro a:visited { color: #55a4db; text-decoration: none; }
 .companyintro a:hover { color: #777777; text-decoration: none; }
