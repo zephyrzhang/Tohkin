@@ -1,9 +1,9 @@
 <div id="mainbody">
 	<div id="slider1">
 	    <ul id="slider1Content">
-	        <li class="slider1Image"><img src="img/main01.png"/><span class="hiddentxt">企业文化</span></li>
-	        <li class="slider1Image"><img src="img/main02.png"/><span class="hiddentxt">员工生活</span></li>
-	        <li class="slider1Image"><img src="img/main03.png"/><span class="hiddentxt">产品宣传</span></li>
+	        <li class="slider1Image"><img src="/img/main01.png"/><span class="hiddentxt">企业文化</span></li>
+	        <li class="slider1Image"><img src="/img/main02.png"/><span class="hiddentxt">员工生活</span></li>
+	        <li class="slider1Image"><img src="/img/main03.png"/><span class="hiddentxt">产品宣传</span></li>
 	        <div class="clear slider1Image"></div>
 	    </ul>
 	</div>
@@ -15,7 +15,7 @@
 		<div class="clear"></div>
 	</ul>
 	<div class="newszone">
-		<div class="newstitle"><a href="#">集团动态 <img src="img/more.png"/></a></div>
+		<div class="newstitle"><a href="#">集团动态 <img src="/img/more.png"/></a></div>
 		<ul>
 			<li class="separator"></li>
 			<li>

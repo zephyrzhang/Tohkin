@@ -1,0 +1,32 @@
+RewriteEngine On
+ErrorDocument 404 /errors/404.html
+
+RewriteRule ^$ /index.php?p=1&s=1 [QSA,L]
+
+RewriteRule ^home[/]?$ /index.php?p=1&s=1 [QSA,L]
+
+RewriteRule ^about/welcome[/]?$ /index.php?p=2&s=1 [QSA,L]
+RewriteRule ^about/intro[/]?$ /index.php?p=2&s=2 [QSA,L]
+RewriteRule ^about/principle[/]?$ /index.php?p=2&s=3 [QSA,L]
+RewriteRule ^about/vi[/]?$ /index.php?p=2&s=4 [QSA,L]
+
+RewriteRule ^business/trading[/]?$ /index.php?p=3&s=1 [QSA,L]
+RewriteRule ^business/manufacture[/]?$ /index.php?p=3&s=2 [QSA,L]
+RewriteRule ^business/capital[/]?$ /index.php?p=3&s=3 [QSA,L]
+RewriteRule ^business/service[/]?$ /index.php?p=3&s=4 [QSA,L]
+
+RewriteRule ^duty/green[/]?$ /index.php?p=4&s=1 [QSA,L]
+RewriteRule ^duty/development[/]?$ /index.php?p=4&s=2 [QSA,L]
+RewriteRule ^duty/contribute[/]?$ /index.php?p=4&s=3 [QSA,L]
+
+RewriteRule ^news/event[/]?$ /index.php?p=5&s=1 [QSA,L]
+RewriteRule ^news/history[/]?$ /index.php?p=5&s=2 [QSA,L]
+RewriteRule ^news/faq[/]?$ /index.php?p=5&s=3 [QSA,L]
+
+RewriteRule ^careers/job[/]?$ /index.php?p=6&s=1 [QSA,L]
+RewriteRule ^careers/activity[/]?$ /index.php?p=6&s=2 [QSA,L]
+RewriteRule ^careers/tohkinpark[/]?$ /index.php?p=6&s=3 [QSA,L]
+
+RewriteRule ^contact[/]?$ /index.php?p=7&s=1 [QSA,L]
+RewriteRule ^legal[/]?$ /index.php?p=8&s=1 [QSA,L]
+RewriteRule ^sitemap[/]?$ /index.php?p=9&s=1 [QSA,L]

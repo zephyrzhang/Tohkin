@@ -1,1 +1,0 @@
-<title>Tohkin Group</title>
