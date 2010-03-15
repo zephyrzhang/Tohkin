@@ -3,11 +3,18 @@
 * { margin: 0; padding: 0; }
 html { overflow-y: scroll; }
 body { text-align: left; font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, Sans-serif; font-size:12px; color: #333333; background-color: #e8ebef; }
-p { text-align: justify; font-size: 12px; line-height: 20px; }
+p { text-align: justify; font-size: 12px; line-height: 20px; margin-bottom:14px; text-indent:24px}
 h2 { text-align: justify; font-size: 12px; color: #55a4db; }
-h3 {
-	font-size: 14px; line-height: 3; color: #000000;;
-}
+h3 { font-size: 12px; line-height: 3; color: #000000; }
+
+span {font-size: 12px; line-height: 20px;}
+
+.bullet { background:url("/img/bullet.gif") no-repeat 0 50%; padding-left: 12px; }
+
+ul, ol, li, dl, dt, dd { margin:0; padding:0; line-height: 20px;}
+li { list-style:none; }
+
+
 img { border: none; outline: none; }
 input { outline: none; }
 a { outline: none; }
@@ -93,7 +100,9 @@ a:hover { color: #777777; text-decoration: none; }
 
 /* 新闻中心 CSS Document Copyright 2009 ZephyrZhang All Rights Reserved*/
 
-#historybanner { width: 900px; height: 139px; background: url("/img/historybg.png") no-repeat 0 0; }
+#banner_milestone { width: 900px; height: 180px; background: url("/img/banner_milestone.png") no-repeat 0 0; }
+#banner_media { width: 900px; height: 180px; background: url("/img/banner_media.png") no-repeat 0 0; }
+#banner_faqs { width: 900px; height: 180px; background: url("/img/banner_faqs.png") no-repeat 0 0; }
 
 /* 时间轴格式 */
 #toolbar { height: 65px; width: 743px; list-style: none; /*position: relative;*/}	
@@ -122,3 +131,27 @@ a:hover { color: #777777; text-decoration: none; }
 .companyintro a:link { color: #55a4db; text-decoration: none; }
 .companyintro a:visited { color: #55a4db; text-decoration: none; }
 .companyintro a:hover { color: #777777; text-decoration: none; }
+
+/* 关于我们*/
+#banner_welcome { width: 900px; height: 180px; background: url("/img/banner_welcome.png") no-repeat 0 0; }
+#banner_principle { width: 900px; height: 180px; background: url("/img/banner_philosophy.png") no-repeat 0 0; }
+#banner_introduction { width: 900px; height: 180px; background: url("/img/banner_introduction.png") no-repeat 0 0; }
+#banner_culture { width: 900px; height: 180px; background: url("/img/banner_culture.png") no-repeat 0 0; }
+#groupstructure { width: 570px; height:380px;margin-left: auto; margin-right: auto; background: url("/img/groupstructure.png") no-repeat 0px 0px; }
+
+h4 { font-size: 12px; padding-left: 12px; font-weight: bold; color: #55a4db; line-height: 3; background:url("/img/bullet.gif") no-repeat 0 50%; }
+h5 { font-size: 12px; padding-left: 12px; font-weight: bold; color: #333333; line-height: 2;}
+#about p { text-indent: 0; margin-left: 12px; }
+
+/* 人力资源*/
+#banner_job { width: 900px; height: 180px; background: url("/img/banner_job.png") no-repeat 0 0; }
+#banner_activity { width: 900px; height: 180px; background: url("/img/banner_activity.png") no-repeat 0 0; }
+
+/* 社会责任*/
+#banner_sustainable { width: 900px; height: 180px; background: url("/img/banner_sustainable.png") no-repeat 0 0; }
+#banner_public { width: 900px; height: 180px; background: url("/img/banner_public.png") no-repeat 0 0; }
+#banner_green { width: 900px; height: 180px; background: url("/img/banner_green.png") no-repeat 0 0; }
+
+#banner_contact { width: 900px; height: 180px; background: url("/img/banner_contact.png") no-repeat 0 0; }
+
+

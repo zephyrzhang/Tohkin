@@ -7,14 +7,26 @@
 	<?php include("content/component_pagetitle.php");?>
 	<link rel="shortcut icon" href="/img/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="/css/global.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/galleriffic-5.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/white.css"/>
 	<!--[if IE]><link rel="stylesheet" type="text/css" href="css/ie.css"/><![endif]-->
 	<script src="/js/jquery-1.2.6.min.js" type="text/javascript"></script>
+
 	<script src="/js/s3Slider.js" type="text/javascript"></script>
 	<script src="/js/nestliving.js" type="text/javascript"></script> 
 	<script src="/js/superfish.js" type="text/javascript"></script>
 	<script src="/js/fancyzoom.js" type="text/javascript"></script>
 	<script src="/js/codaeffects.js" type="text/javascript"></script>
 	<script type="text/javascript">$(document).ready(function() {$('#slider1').s3Slider({timeOut: 6000});});</script>
+	
+	<script type="text/javascript" src="../js/jquery-1.3.2.js"></script>
+	<script type="text/javascript" src="../js/jquery.galleriffic.js"></script>
+	<script type="text/javascript" src="../js/jquery.opacityrollover.js"></script>
+	<!-- We only want the thunbnails to display when javascript is disabled -->
+	<script type="text/javascript">
+		document.write('<style>.noscript { display: none; }</style>');
+	</script>
+	
 </head>
 <body>
 	<div id="wrapper">

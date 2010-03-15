@@ -12,7 +12,7 @@ $site = array(
 					"1" => array("title" => "欢迎辞", "link" => "/about/welcome", "inc" => 'content/about_welcome.php'),
 				 	"2" => array("title" => "集团简介", "link" => "/about/intro", "inc" => 'content/about_intro.php'),
 				 	"3" => array("title" => "经营理念", "link" => "/about/principle", "inc" => 'content/about_principle.php'),
-				 	"4" => array("title" => "VI介绍", "link" => "/about/vi", "inc" => 'content/about_vi.php')
+				 	"4" => array("title" => "企业文化", "link" => "/about/vi", "inc" => 'content/about_vi.php')
 					),
 		"3" => array(
 					"0" => array("title" => "集团业务"),
@@ -25,7 +25,7 @@ $site = array(
 					"0" => array("title" => "社会责任"),
 				 	"1" => array("title" => "绿色东锦", "link" => "/duty/green", "inc" => 'content/duty_green.php'),
 				 	"2" => array("title" => "持续发展", "link" => "/duty/development", "inc" => 'content/duty_development.php'),
-				 	"3" => array("title" => "捐助", "link" => "/duty/contribute", "inc" => 'content/duty_contribute.php')
+				 	"3" => array("title" => "公益事业", "link" => "/duty/contribute", "inc" => 'content/duty_contribute.php')
 					),
 		"5" => array(
 					"0" => array("title" => "新闻中心"),

@@ -1,5 +1,5 @@
 <div id="mainbody">
-<div id="historybanner"></div>
+<div id="banner_milestone"></div>
 <div class="dotline"></div>
 <?php include("content/component_subnav.php");?>
 <div id="right">
