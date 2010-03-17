@@ -57,7 +57,7 @@ a:hover { color: #777777; text-decoration: none; }
 .subnav ul li { list-style-type: none; text-align: left; text-indent: 23px; }
 .subnav ul li a { display: block; height: 32px; color: #333333; line-height: 25px; }
 .subnav ul li a:hover { color: #55a4db; }
-#subnavtitle { text-indent: 10px; }
+#subnavtitle { text-indent: 10px; height: 32px; line-height: 25px; }
 #subon { color: #55a4db; }
 
 /* 页脚格式 */

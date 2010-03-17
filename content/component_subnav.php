@@ -1,7 +1,7 @@
 <div class="subnav">
 <ul>
 	<?php
-		echo '<li id="subnavtitle"><a href="' . $site[$p][1][link] . '">' . $site[$p][0][title] . '</a></li>';
+		echo '<li id="subnavtitle">' . $site[$p][0][title] . '</li>';
 		$i = 1;
 		for ($site[$p][$i]; isset($site[$p][$i]); $site[$p][$i++])
 			{
