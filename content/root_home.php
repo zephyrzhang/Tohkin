@@ -9,13 +9,13 @@
 	</div>
 	<div class="dotline"></div>
 	<ul class="featured">
-		<li class="featured01"><a href="#"><span class="hiddentxt">日加满</span></a></li>
-		<li class="featured02"><a href="#"><span class="hiddentxt">娇源</span></a></li>
-		<li class="featured03"><a href="#"><span class="hiddentxt">利弗兰酒</span></a></li>
+		<li class="featured01"><a href="http://www.myichimore.com/" target="black"><span class="hiddentxt">日加满</span></a></li>
+		<li class="featured02"><a href="http://www.ichimorelady.com/" target="black"><span class="hiddentxt">娇源</span></a></li>
+		<li class="featured03"><a href="http://www.tohzen.com/" target="black"><span class="hiddentxt">利弗兰酒</span></a></li>
 		<div class="clear"></div>
 	</ul>
 	<div class="newszone">
-		<div class="newstitle"><a href="#">集团动态 <img src="/img/more.png"/></a></div>
+		<div class="newstitle"><a href="/news/event">集团动态&nbsp<img src="/img/more.png"/></a></div>
 		<ul>
 			<li class="separator"></li>
 			<li>

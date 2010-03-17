@@ -104,6 +104,10 @@ a:hover { color: #777777; text-decoration: none; }
 #banner_media { width: 900px; height: 180px; background: url("/img/banner_media.png") no-repeat 0 0; }
 #banner_faqs { width: 900px; height: 180px; background: url("/img/banner_faqs.png") no-repeat 0 0; }
 
+#newslist { margin-top: 36px; }
+#newslist p { text-indent: 0; margin-bottom: 6px; }
+#newslist span { width: 100px; color:#55a4db; display: inline-block; }
+
 /* 时间轴格式 */
 #toolbar { height: 65px; width: 743px; list-style: none; /*position: relative;*/}	
 #toolbar li { text-indent: -9999px; float: left; }
@@ -119,9 +123,10 @@ a:hover { color: #777777; text-decoration: none; }
 #scroller, .section { height: auto; }	
 #scroller { width: 743px; overflow: hidden; margin: 0 auto; }
 #content { width: 5000px; }
+#content span {width: 120px; display: inline-block; color:#55a4db; }
 .section { width: 710px; margin: 20px; float: left;	}
 
-/* 集团业务*/
+/* 集团业务 */
 #banner_trade { width: 900px; height: 180px; background: url("/img/banner_trade.png") no-repeat 0 0; }
 #banner_manu { width: 900px; height: 180px; background: url("/img/banner_manu.png") no-repeat 0 0; }
 #banner_capital { width: 900px; height: 180px; background: url("/img/banner_capital.png") no-repeat 0 0; }
@@ -132,7 +137,7 @@ a:hover { color: #777777; text-decoration: none; }
 .companyintro a:visited { color: #55a4db; text-decoration: none; }
 .companyintro a:hover { color: #777777; text-decoration: none; }
 
-/* 关于我们*/
+/* 关于我们 */
 #banner_welcome { width: 900px; height: 180px; background: url("/img/banner_welcome.png") no-repeat 0 0; }
 #banner_principle { width: 900px; height: 180px; background: url("/img/banner_philosophy.png") no-repeat 0 0; }
 #banner_introduction { width: 900px; height: 180px; background: url("/img/banner_introduction.png") no-repeat 0 0; }
@@ -143,15 +148,26 @@ h4 { font-size: 12px; padding-left: 12px; font-weight: bold; color: #55a4db; lin
 h5 { font-size: 12px; padding-left: 12px; font-weight: bold; color: #333333; line-height: 2;}
 #about p { text-indent: 0; margin-left: 12px; }
 
-/* 人力资源*/
+/* 人力资源 */
 #banner_job { width: 900px; height: 180px; background: url("/img/banner_job.png") no-repeat 0 0; }
 #banner_activity { width: 900px; height: 180px; background: url("/img/banner_activity.png") no-repeat 0 0; }
+#banner_jinyuan { width: 900px; height: 180px; background: url("/img/banner_jinyuan.png") no-repeat 0 0; }
 
-/* 社会责任*/
+/* 社会责任 */
 #banner_sustainable { width: 900px; height: 180px; background: url("/img/banner_sustainable.png") no-repeat 0 0; }
 #banner_public { width: 900px; height: 180px; background: url("/img/banner_public.png") no-repeat 0 0; }
 #banner_green { width: 900px; height: 180px; background: url("/img/banner_green.png") no-repeat 0 0; }
 
 #banner_contact { width: 900px; height: 180px; background: url("/img/banner_contact.png") no-repeat 0 0; }
+#banner_sitemap { width: 900px; height: 180px; background: url("/img/banner_sitemap.png") no-repeat 0 0; }
+#banner_legal { width: 900px; height: 180px; background: url("/img/banner_legal.png") no-repeat 0 0; }
 
+/* 网站地图 */
+#sitemap{ margin: 10px 0 10px 20px; }
+.sitemapbox { color: #55a4db; float: left; margin: 10px; padding: 12px; background: url("/img/dotline_v.png") no-repeat; height: 100px; }
 
+.sitemapul { list-style: none; margin-top: 5px; width: 80px; }
+.sitemapul li { margin-left: 0px; text-decoration: none; }
+.sitemapul a { color: #333333; text-decoration: none; }
+.sitemapul a:visited { color: #333333; text-decoration: none; }
+.sitemapul a:hover { color: #999999; text-decoration: none; }
