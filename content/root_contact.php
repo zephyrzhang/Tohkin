@@ -9,6 +9,7 @@
 <p>传真: 39557442</p>
 <p>邮编: 201812</p>
 <p>电子信箱: <a href="mailto:xiongbin.tang@tohkin.com">xiongbin.tang@tohkin.com</a></p>
+<p><a href="system/wp-admin">管理员登陆</a></p>
 <div class="clear"></div>
 <br />
 </div><!--end mainbody-->

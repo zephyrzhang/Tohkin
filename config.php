@@ -1,6 +1,6 @@
 <?php
-$p = $_GET["p"];
-$s = $_GET["s"];
+$pid = $_GET["pid"];
+$sid = $_GET["sid"];
 $id = $_GET["id"];
 //$site[一级导航][二级导航][页面参数]
 $site = array(

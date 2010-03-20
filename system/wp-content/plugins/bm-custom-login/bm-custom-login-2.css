@@ -1,0 +1,73 @@
+#login {
+	background:url( images/login-bkg-tile.jpg ) center top no-repeat;
+	width: 380px;
+}
+
+#login form {
+	margin-top: 0px;
+}
+
+/*  This makes the core background color for the login form transparent so 
+    your graphic will show through in all three form states. 
+*/
+#loginform, #registerform, #lostpasswordform {
+	background-color: transparent;
+}
+
+/*  If you have a light background as your login form graphic, change the color
+    here. #fff = white, #000 = black. This changes the Username, Password and 
+    'Remeber Me' text color. 
+*/
+form {
+	color:#fff;
+}
+
+/*  This hides the WordPress logo. The height parameter also adjust where the 
+    first input or message box begins. 
+*/
+h1 a {
+	background: transparent;
+	height: 122px;
+	width: 380px;
+}
+
+/*  Even though this is the navigation div for the links at the bottom of the 
+    login form, it also controls the bottom image that gives the login form a 
+    nice curved corner feel. 
+*/
+#nav {
+	background:url( images/login-bkg-bottom.gif ) center bottom no-repeat;
+	width:380px;
+	height:45px;
+	text-indent: 26px;
+	margin:0px; padding: 0px;
+}
+
+.login #nav a {
+	color:#fff;
+}
+
+#login form .submit input {	
+	margin-right: 11px;
+}
+
+/*  Attributes for the errors and messages box. These can be broken up if you 
+    want to display a differnet color scheme for messages and errors. 
+*/
+#login p.message {
+	padding: 12px;
+	margin: 10px 26px 0px 24px;
+}
+
+#login #login_error {
+	padding: 12px;
+	margin: 15px 26px 0px 24px;
+}
+
+/*  Form input box attributes. 
+*/
+#user_pass, #user_login, #user_email {
+	font-size: 20px;
+	width: 94%;
+	/* width:318px; this width is the same as 94% */
+}

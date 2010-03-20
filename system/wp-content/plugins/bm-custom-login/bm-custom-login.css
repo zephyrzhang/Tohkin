@@ -1,0 +1,7 @@
+#login {
+	background:url( images/login-bkg-tile.jpg ) center top no-repeat;
+}
+
+#login form {
+	background:url( images/login-bkg-bottom.gif ) center bottom no-repeat;
+}

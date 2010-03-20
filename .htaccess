@@ -1,32 +1,32 @@
 RewriteEngine On
 ErrorDocument 404 /errors/404.html
 
-RewriteRule ^$ /index.php?p=1&s=1 [QSA,L]
+RewriteRule ^$ /index.php?pid=1&sid=1 [QSA,L]
 
-RewriteRule ^home[/]?$ /index.php?p=1&s=1 [QSA,L]
+RewriteRule ^home[/]?$ /index.php?pid=1&sid=1 [QSA,L]
 
-RewriteRule ^about/welcome[/]?$ /index.php?p=2&s=1 [QSA,L]
-RewriteRule ^about/intro[/]?$ /index.php?p=2&s=2 [QSA,L]
-RewriteRule ^about/principle[/]?$ /index.php?p=2&s=3 [QSA,L]
-RewriteRule ^about/culture[/]?$ /index.php?p=2&s=4 [QSA,L]
+RewriteRule ^about/welcome[/]?$ /index.php?pid=2&sid=1 [QSA,L]
+RewriteRule ^about/intro[/]?$ /index.php?pid=2&sid=2 [QSA,L]
+RewriteRule ^about/principle[/]?$ /index.php?pid=2&sid=3 [QSA,L]
+RewriteRule ^about/culture[/]?$ /index.php?pid=2&sid=4 [QSA,L]
 
-RewriteRule ^business/trading[/]?$ /index.php?p=3&s=1 [QSA,L]
-RewriteRule ^business/manufacture[/]?$ /index.php?p=3&s=2 [QSA,L]
-RewriteRule ^business/capital[/]?$ /index.php?p=3&s=3 [QSA,L]
-RewriteRule ^business/service[/]?$ /index.php?p=3&s=4 [QSA,L]
+RewriteRule ^business/trading[/]?$ /index.php?pid=3&sid=1 [QSA,L]
+RewriteRule ^business/manufacture[/]?$ /index.php?pid=3&sid=2 [QSA,L]
+RewriteRule ^business/capital[/]?$ /index.php?pid=3&sid=3 [QSA,L]
+RewriteRule ^business/service[/]?$ /index.php?pid=3&sid=4 [QSA,L]
 
-RewriteRule ^csr/green[/]?$ /index.php?p=4&s=1 [QSA,L]
-RewriteRule ^csr/development[/]?$ /index.php?p=4&s=2 [QSA,L]
-RewriteRule ^csr/contribute[/]?$ /index.php?p=4&s=3 [QSA,L]
+RewriteRule ^csr/green[/]?$ /index.php?pid=4&sid=1 [QSA,L]
+RewriteRule ^csr/development[/]?$ /index.php?pid=4&sid=2 [QSA,L]
+RewriteRule ^csr/contribute[/]?$ /index.php?pid=4&sid=3 [QSA,L]
 
-RewriteRule ^news/event[/]?$ /index.php?p=5&s=1 [QSA,L]
-RewriteRule ^news/history[/]?$ /index.php?p=5&s=2 [QSA,L]
-RewriteRule ^news/faq[/]?$ /index.php?p=5&s=3 [QSA,L]
+RewriteRule ^news/event[/]?$ /index.php?pid=5&sid=1 [QSA,L]
+RewriteRule ^news/history[/]?$ /index.php?pid=5&sid=2 [QSA,L]
+RewriteRule ^news/faq[/]?$ /index.php?pid=5&sid=3 [QSA,L]
 
-RewriteRule ^careers/job[/]?$ /index.php?p=6&s=1 [QSA,L]
-RewriteRule ^careers/activity[/]?$ /index.php?p=6&s=2 [QSA,L]
-RewriteRule ^careers/tohkinpark[/]?$ /index.php?p=6&s=3 [QSA,L]
+RewriteRule ^careers/job[/]?$ /index.php?pid=6&sid=1 [QSA,L]
+RewriteRule ^careers/activity[/]?$ /index.php?pid=6&sid=2 [QSA,L]
+RewriteRule ^careers/tohkinpark[/]?$ /index.php?pid=6&sid=3 [QSA,L]
 
-RewriteRule ^contact[/]?$ /index.php?p=7&s=1 [QSA,L]
-RewriteRule ^legal[/]?$ /index.php?p=8&s=1 [QSA,L]
-RewriteRule ^sitemap[/]?$ /index.php?p=9&s=1 [QSA,L]
+RewriteRule ^contact[/]?$ /index.php?pid=7&sid=1 [QSA,L]
+RewriteRule ^legal[/]?$ /index.php?pid=8&sid=1 [QSA,L]
+RewriteRule ^sitemap[/]?$ /index.php?pid=9&sid=1 [QSA,L]

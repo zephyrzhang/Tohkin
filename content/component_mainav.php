@@ -1,5 +1,5 @@
 <?php
-switch ($p)
+switch ($pid)
 	{
 	case 1: $status01 = 'id="navon"'; break;
 	case 2: $status02 = 'id="navon"'; break;

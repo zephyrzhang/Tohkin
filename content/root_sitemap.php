@@ -3,19 +3,19 @@
 <div class="dotline"></div>
 <div id="sitemap">
 	<?php
-	for($p=1; $p < 7; $p++)
+	for($pid=1; $pid < 7; $pid++)
 		{
 			$s = 1;
-			if ($p==1){
-			echo "<div class='sitemapbox'>" . $site[$p][1][title];
+			if ($pid==1){
+			echo "<div class='sitemapbox'>" . $site[$pid][1][title];
 			}
 			else {
-			echo "<div class='sitemapbox'>" . $site[$p][0][title];
+			echo "<div class='sitemapbox'>" . $site[$pid][0][title];
 			}
 			echo "<ul class='sitemapul'>";
-				for($site[$p][$s]; isset($site[$p][$s]); $site[$p][$s++])
+				for($site[$pid][$s]; isset($site[$pid][$s]); $site[$pid][$s++])
 					{
-					echo "<li><a href='" . $site[$p][$s][link] . "' title='" . $site[$p][$s][title] . "'>" . $site[$p][$s][title] . "</a></li>";
+					echo "<li><a href='" . $site[$pid][$s][link] . "' title='" . $site[$pid][$s][title] . "'>" . $site[$pid][$s][title] . "</a></li>";
 					}
 			echo "</ul>";
 			echo "</div>";
