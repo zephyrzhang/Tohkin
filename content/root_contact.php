@@ -3,6 +3,7 @@
 <div class="dotline"></div>
 <br />
 <img src="/img/map.png" style="float: right; margin-right:20px; margin-bottom:5px;"/>
+<br />
 <p>地址: 上海市曹安路十二号桥金园五路108号</p>
 <p>电话: 39556981</p>
 <p>传真: 39557442</p>
