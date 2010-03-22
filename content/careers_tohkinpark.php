@@ -268,7 +268,8 @@
 					</div>-->
 				</div>
 				<!-- End Gallery Html Containers -->
-				<div style="clear: both;"></div>
+				<dir class="clear"></dir>
+				<p>&copy; 2010 荣 All copy rights reserved.</p>
 			</div>
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {

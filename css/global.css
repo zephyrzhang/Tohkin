@@ -9,7 +9,7 @@ h3 { font-size: 12px; line-height: 3; color: #000000; }
 
 span {font-size: 12px; line-height: 20px;}
 
-.bullet { background:url("/img/bullet.gif") no-repeat 0 50%; padding-left: 12px; }
+.bullet { background:url("/img/bullet.png") no-repeat 0 50%; padding-left: 12px; }
 
 ul, ol, li, dl, dt, dd { margin:0; padding:0; line-height: 20px;}
 li { list-style:none; }
@@ -33,7 +33,7 @@ a:hover { color: #777777; text-decoration: none; }
 .dotline { width: 900px; height: 1px; background: url("/img/dotline_h.png") no-repeat 0 0; }
 
 /* 页眉格式 */
-#header { width: 900px; height: 80px; background: url("/img/logo.png") no-repeat 20px 20px; }
+#header { width: 900px; height: 100px; background: url("/img/logo.png") no-repeat 20px 20px; }
 #searchform { float: right; margin-top: 15px; margin-right: 15px; }
 #searchinput { float: left; width: 120px; height: 17px; border:1px solid #cccccc; }
 #searchbutton { float: left; margin-left:3px; }
@@ -94,9 +94,9 @@ a:hover { color: #777777; text-decoration: none; }
 .newstitle a:hover { color: #3b73b9; text-decoration: none; }
 .newsdate { color: #3b73b9; font-size: 10px; line-height: 18px; margin-right: 5px; float: left; }
 .newszone ul { list-style-type: none; }
-.newszone ul li { padding: 0; margin: 0; }
+.newszone ul li { padding: 0; margin: 0;}
 .newszone ul li a { width: 240px;font-size: 12px; line-height: 18px; float: left;}
-.separator { width: 330px; height: 20px; background: url("/img/dotline_h.png") no-repeat 0 10px; }
+.separator { width: 330px; height: 20px; background: url("/img/dotline_h.png") no-repeat 0 10px; clear: both; }
 
 /* 新闻中心 CSS Document Copyright 2009 ZephyrZhang All Rights Reserved*/
 
@@ -143,7 +143,7 @@ a:hover { color: #777777; text-decoration: none; }
 #banner_introduction { width: 900px; height: 180px; background: url("/img/banner_introduction.png") no-repeat 0 0; }
 #banner_culture { width: 900px; height: 180px; background: url("/img/banner_culture.png") no-repeat 0 0; }
 #groupstructure { width: 570px; height:380px;margin-left: auto; margin-right: auto; background: url("/img/groupstructure.png") no-repeat 0px 0px; }
-h4 { font-size: 12px; padding-left: 12px; font-weight: bold; color: #3b73b9; line-height: 3; background:url("/img/bullet.gif") no-repeat 0 50%; }
+h4 { font-size: 12px; padding-left: 12px; font-weight: bold; color: #3b73b9; line-height: 3; background:url("/img/bullet.png") no-repeat 0 50%; }
 h5 { font-size: 12px; padding-left: 12px; font-weight: bold; color: #333333; line-height: 2;}
 #about p { text-indent: 0; margin-left: 12px; }
 
