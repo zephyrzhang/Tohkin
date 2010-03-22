@@ -4,7 +4,7 @@
 html { overflow-y: scroll; }
 body { text-align: left; font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, Sans-serif; font-size:12px; color: #333333; background-color: #e8ebef; }
 p { text-align: justify; font-size: 12px; line-height: 20px; margin-bottom:14px; text-indent:24px}
-h2 { text-align: justify; font-size: 12px; color: #55a4db; }
+h2 { text-align: justify; font-size: 12px; color: #3b73b9; }
 h3 { font-size: 12px; line-height: 3; color: #000000; }
 
 span {font-size: 12px; line-height: 20px;}
@@ -28,7 +28,7 @@ a:hover { color: #777777; text-decoration: none; }
 
 /* 主体格式 */
 #wrapper { background-color: #ffffff; width: 900px; margin: 0 auto 0 auto; }
-#mainbody{ width: 900px; border-bottom: 4px solid #55a4db; }
+#mainbody{ width: 900px; border-bottom: 4px solid #3b73b9; }
 #right { width: 743px; background-color: #cccccc; float: left; margin: 20px 20px 20px 0px; padding-left: 20px; background: url("/img/dotline_v.png") repeat-y 0 0;}
 .dotline { width: 900px; height: 1px; background: url("/img/dotline_h.png") no-repeat 0 0; }
 
@@ -39,26 +39,26 @@ a:hover { color: #777777; text-decoration: none; }
 #searchbutton { float: left; margin-left:3px; }
 
 /* 主导航栏格式 */
-#navon { color: #55a4db; }
+#navon { color: #3b73b9; }
 .sf-sub-indicator	{ display: none; }
 .nav { font-size: 12px; width: 900px; height: 32px; background: url("/img/mainnavbg.png") no-repeat 0 0; }
 .nav ul {list-style-type: none; position: relative; margin-left:235px; z-index: 2; }
 .nav ul li { float:left; text-align: center; }
 .nav ul li a { display: block; height: 32px; width: 110px; line-height: 25px; color: #333333; text-decoration: none; font-weight: normal; }
-.nav ul li a:hover { color: #55a4db; }
+.nav ul li a:hover { color: #3b73b9; }
 .nav ul li.dropdown ul { display: none; position: absolute; border: 1px solid #cccccc; width: 117px; padding: 0 0 5px 0; margin: -33px 0 0 -4px; background: url("/img/dropnavbg.png") no-repeat 0 0; z-index: 1; }	
 .nav ul li.dropdown ul li { float: left; display: block; }
 .nav ul li.dropdown ul li a { text-indent: 34px; color: #333333; line-height: 25px; text-align: left; }
-.nav ul li.dropdown ul li a:hover { color: #55a4db; }
+.nav ul li.dropdown ul li a:hover { color: #3b73b9; }
 
 /* 副导航栏格式 */
 .subnav { width: 117px; margin: 20px 0 20px 0; float: left; }
 .subnav ul { width: 117px; background: url("/img/dropnavbg.png") no-repeat 0 0; }	
 .subnav ul li { list-style-type: none; text-align: left; text-indent: 23px; }
 .subnav ul li a { display: block; height: 32px; color: #333333; line-height: 25px; }
-.subnav ul li a:hover { color: #55a4db; }
+.subnav ul li a:hover { color: #3b73b9; }
 #subnavtitle { text-indent: 10px; height: 32px; line-height: 25px; }
-#subon { color: #55a4db; }
+#subon { color: #3b73b9; }
 
 /* 页脚格式 */
 #footer { width: 900px; margin: 10px auto 20px auto; color: #777777; font-size: 11px; }
@@ -89,13 +89,13 @@ a:hover { color: #777777; text-decoration: none; }
 .newszone { width: 330px; float: left; margin: 20px 20px 20px 20px; }
 .newstitle { height: 13px; }
 .newstitle img { vertical-align: -17%; }
-.newstitle a:link { color: #55a4db; text-decoration: none; }
-.newstitle a:visited { color: #55a4db; text-decoration: none; }
-.newstitle a:hover { color: #55a4db; text-decoration: none; }
-.newsdate { color: #55a4db; font-size: 10px; line-height: 18px; margin-right: 5px; float: left; }
+.newstitle a:link { color: #3b73b9; text-decoration: none; }
+.newstitle a:visited { color: #3b73b9; text-decoration: none; }
+.newstitle a:hover { color: #3b73b9; text-decoration: none; }
+.newsdate { color: #3b73b9; font-size: 10px; line-height: 18px; margin-right: 5px; float: left; }
 .newszone ul { list-style-type: none; }
 .newszone ul li { padding: 0; margin: 0; }
-.newszone ul li a { width: 260px;font-size: 12px; line-height: 18px; float: left;}
+.newszone ul li a { width: 240px;font-size: 12px; line-height: 18px; float: left;}
 .separator { width: 330px; height: 20px; background: url("/img/dotline_h.png") no-repeat 0 10px; }
 
 /* 新闻中心 CSS Document Copyright 2009 ZephyrZhang All Rights Reserved*/
@@ -104,9 +104,9 @@ a:hover { color: #777777; text-decoration: none; }
 #banner_media { width: 900px; height: 180px; background: url("/img/banner_media.png") no-repeat 0 0; }
 #banner_faqs { width: 900px; height: 180px; background: url("/img/banner_faqs.png") no-repeat 0 0; }
 
-#newslist { margin-top: 36px; }
+#newslist { margin-top: 0px; }
 #newslist p { text-indent: 0; margin-bottom: 6px; }
-#newslist span { width: 100px; color:#55a4db; display: inline-block; }
+#newslist span { width: 100px; color:#3b73b9; display: inline-block; }
 
 /* 时间轴格式 */
 #toolbar { height: 65px; width: 743px; list-style: none; /*position: relative;*/}	
@@ -123,7 +123,7 @@ a:hover { color: #777777; text-decoration: none; }
 #scroller, .section { height: auto; }	
 #scroller { width: 743px; overflow: hidden; margin: 0 auto; }
 #content { width: 5000px; }
-#content span {width: 120px; display: inline-block; color:#55a4db; }
+#content span {width: 120px; display: inline-block; color:#3b73b9; }
 .section { width: 710px; margin: 20px; float: left;	}
 
 /* 集团业务 */
@@ -133,8 +133,8 @@ a:hover { color: #777777; text-decoration: none; }
 #banner_service { width: 900px; height: 180px; background: url("/img/banner_service.png") no-repeat 0 0; }
 .companylogo { width: 150px; height: 150px; border: 1px solid #f2f2f2; float: left; margin: 10px 0 0 0; }
 .companyintro { width: 570px; margin-left: 20px; float: left; }
-.companyintro a:link { color: #55a4db; text-decoration: none; }
-.companyintro a:visited { color: #55a4db; text-decoration: none; }
+.companyintro a:link { color: #3b73b9; text-decoration: none; }
+.companyintro a:visited { color: #3b73b9; text-decoration: none; }
 .companyintro a:hover { color: #777777; text-decoration: none; }
 
 /* 关于我们 */
@@ -143,8 +143,7 @@ a:hover { color: #777777; text-decoration: none; }
 #banner_introduction { width: 900px; height: 180px; background: url("/img/banner_introduction.png") no-repeat 0 0; }
 #banner_culture { width: 900px; height: 180px; background: url("/img/banner_culture.png") no-repeat 0 0; }
 #groupstructure { width: 570px; height:380px;margin-left: auto; margin-right: auto; background: url("/img/groupstructure.png") no-repeat 0px 0px; }
-
-h4 { font-size: 12px; padding-left: 12px; font-weight: bold; color: #55a4db; line-height: 3; background:url("/img/bullet.gif") no-repeat 0 50%; }
+h4 { font-size: 12px; padding-left: 12px; font-weight: bold; color: #3b73b9; line-height: 3; background:url("/img/bullet.gif") no-repeat 0 50%; }
 h5 { font-size: 12px; padding-left: 12px; font-weight: bold; color: #333333; line-height: 2;}
 #about p { text-indent: 0; margin-left: 12px; }
 
@@ -163,11 +162,13 @@ h5 { font-size: 12px; padding-left: 12px; font-weight: bold; color: #333333; lin
 #banner_legal { width: 900px; height: 180px; background: url("/img/banner_legal.png") no-repeat 0 0; }
 
 /* 网站地图 */
-#sitemap{ margin: 10px 0 10px 20px; }
-.sitemapbox { color: #55a4db; float: left; margin: 10px; padding: 12px; background: url("/img/dotline_v.png") no-repeat; height: 100px; }
+#sitemap { margin: 10px 0 10px 20px; }
+.sitemapbox { color: #3b73b9; float: left; margin: 10px; padding: 12px; background: url("/img/dotline_v.png") no-repeat; height: 100px; }
 
 .sitemapul { list-style: none; margin-top: 5px; width: 80px; }
 .sitemapul li { margin-left: 0px; text-decoration: none; }
 .sitemapul a { color: #333333; text-decoration: none; }
 .sitemapul a:visited { color: #333333; text-decoration: none; }
 .sitemapul a:hover { color: #999999; text-decoration: none; }
+
+#legallist { margin: 10px 20px 10px 20px; }

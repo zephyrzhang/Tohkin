@@ -14,7 +14,8 @@ include("config.php");
 	<link rel="stylesheet" type="text/css" href="/css/global.css"/>
 	<link rel="stylesheet" type="text/css" href="/css/galleriffic-5.css"/>
 	<link rel="stylesheet" type="text/css" href="/css/white.css"/>
-	<link rel="stylesheet" href="/css/thickbox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/css/thickbox.css" />
+	<link rel="stylesheet" type="text/css" href="/css/system.css" />
 	<!--[if IE]><link rel="stylesheet" type="text/css" href="css/ie.css"/><![endif]-->
 	<script type="text/javascript" src="/js/jquery-1.3.2.js"></script>
 	<script type="text/javascript" src="/js/thickbox.js"></script>

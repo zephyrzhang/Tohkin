@@ -19,11 +19,11 @@ RewriteRule ^csr/green[/]?$ /index.php?pid=4&sid=1 [QSA,L]
 RewriteRule ^csr/development[/]?$ /index.php?pid=4&sid=2 [QSA,L]
 RewriteRule ^csr/contribute[/]?$ /index.php?pid=4&sid=3 [QSA,L]
 
-RewriteRule ^news/event[/]?$ /index.php?pid=5&sid=1 [QSA,L]
+RewriteRule ^news/event[/]?$ /index.php?pid=5&sid=1&cat=1 [QSA,L]
 RewriteRule ^news/history[/]?$ /index.php?pid=5&sid=2 [QSA,L]
 RewriteRule ^news/faq[/]?$ /index.php?pid=5&sid=3 [QSA,L]
 
-RewriteRule ^careers/job[/]?$ /index.php?pid=6&sid=1 [QSA,L]
+RewriteRule ^careers/job[/]?$ /index.php?pid=6&sid=1& [QSA,L]
 RewriteRule ^careers/activity[/]?$ /index.php?pid=6&sid=2 [QSA,L]
 RewriteRule ^careers/tohkinpark[/]?$ /index.php?pid=6&sid=3 [QSA,L]
 

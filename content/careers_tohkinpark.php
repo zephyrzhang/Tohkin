@@ -3,321 +3,256 @@
 <div class="dotline"></div>
 	<?php include("content/component_subnav.php");?>
 	<div id="right">
-
 		<div id="container">
 				<!-- Start Advanced Gallery Html Containers -->				
 				<div class="navigation-container">
 					<div id="thumbs" class="navigation">
 						<a class="pageLink prev" style="visibility: hidden;" href="#" title="Previous Page"></a>
-					
 						<ul class="thumbs noscript">
 							<li>
-								<a class="thumb" name="leaf" href="http://farm4.static.flickr.com/3261/2538183196_8baf9a8015.jpg" title="Title #0">
-									<img src="http://farm4.static.flickr.com/3261/2538183196_8baf9a8015_s.jpg" alt="Title #0" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/07.jpg">
+									<img src="/img/tohkinpark_s/07.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #0</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm4.static.flickr.com/3261/2538183196_8baf9a8015_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" name="drop" href="http://farm3.static.flickr.com/2404/2538171134_2f77bc00d9.jpg" title="Title #1">
-									<img src="http://farm3.static.flickr.com/2404/2538171134_2f77bc00d9_s.jpg" alt="Title #1" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/09.jpg">
+									<img src="/img/tohkinpark_s/09.jpg"/>
 								</a>
-								<div class="caption">
-									Any html can be placed here ...
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" name="bigleaf" href="http://farm3.static.flickr.com/2093/2538168854_f75e408156.jpg" title="Title #2">
-									<img src="http://farm3.static.flickr.com/2093/2538168854_f75e408156_s.jpg" alt="Title #2" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/11.jpg">
+									<img src="/img/tohkinpark_s/11.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #2</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm3.static.flickr.com/2093/2538168854_f75e408156_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" name="lizard" href="http://farm4.static.flickr.com/3153/2538167690_c812461b7b.jpg" title="Title #3">
-									<img src="http://farm4.static.flickr.com/3153/2538167690_c812461b7b_s.jpg" alt="Title #3" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/13.jpg">
+									<img src="/img/tohkinpark_s/13.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #3</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm4.static.flickr.com/3153/2538167690_c812461b7b_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm4.static.flickr.com/3150/2538167224_0a6075dd18.jpg" title="Title #4">
-									<img src="http://farm4.static.flickr.com/3150/2538167224_0a6075dd18_s.jpg" alt="Title #4" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/16.jpg">
+									<img src="/img/tohkinpark_s/16.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #4</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm4.static.flickr.com/3150/2538167224_0a6075dd18_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm4.static.flickr.com/3204/2537348699_bfd38bd9fd.jpg" title="Title #5">
-									<img src="http://farm4.static.flickr.com/3204/2537348699_bfd38bd9fd_s.jpg" alt="Title #5" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/17.jpg">
+									<img src="/img/tohkinpark_s/17.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #5</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm4.static.flickr.com/3204/2537348699_bfd38bd9fd_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm4.static.flickr.com/3124/2538164582_b9d18f9d1b.jpg" title="Title #6">
-									<img src="http://farm4.static.flickr.com/3124/2538164582_b9d18f9d1b_s.jpg" alt="Title #6" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/18.jpg">
+									<img src="/img/tohkinpark_s/18.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #6</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm4.static.flickr.com/3124/2538164582_b9d18f9d1b_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm4.static.flickr.com/3205/2538164270_4369bbdd23.jpg" title="Title #7">
-									<img src="http://farm4.static.flickr.com/3205/2538164270_4369bbdd23_s.jpg" alt="Title #7" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/37.jpg">
+									<img src="/img/tohkinpark_s/37.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #7</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm4.static.flickr.com/3205/2538164270_c7d1646ecf_o.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm4.static.flickr.com/3211/2538163540_c2026243d2.jpg" title="Title #8">
-									<img src="http://farm4.static.flickr.com/3211/2538163540_c2026243d2_s.jpg" alt="Title #8" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/38.jpg">
+									<img src="/img/tohkinpark_s/38.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #8</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm4.static.flickr.com/3211/2538163540_c2026243d2_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm3.static.flickr.com/2315/2537343449_f933be8036.jpg" title="Title #9">
-									<img src="http://farm3.static.flickr.com/2315/2537343449_f933be8036_s.jpg" alt="Title #9" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/39.jpg">
+									<img src="/img/tohkinpark_s/39.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #9</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm3.static.flickr.com/2315/2537343449_f933be8036_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm3.static.flickr.com/2167/2082738157_436d1eb280.jpg" title="Title #10">
-									<img src="http://farm3.static.flickr.com/2167/2082738157_436d1eb280_s.jpg" alt="Title #10" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/40.jpg">
+									<img src="/img/tohkinpark_s/40.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #10</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm3.static.flickr.com/2167/2082738157_436d1eb280_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm3.static.flickr.com/2342/2083508720_fa906f685e.jpg" title="Title #11">
-									<img src="http://farm3.static.flickr.com/2342/2083508720_fa906f685e_s.jpg" alt="Title #11" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/41.jpg">
+									<img src="/img/tohkinpark_s/41.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #11</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm3.static.flickr.com/2342/2083508720_fa906f685e_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm3.static.flickr.com/2132/2082721339_4b06f6abba.jpg" title="Title #12">
-									<img src="http://farm3.static.flickr.com/2132/2082721339_4b06f6abba_s.jpg" alt="Title #12" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/42.jpg">
+									<img src="/img/tohkinpark_s/42.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #12</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm3.static.flickr.com/2132/2082721339_4b06f6abba_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm3.static.flickr.com/2139/2083503622_5b17f16a60.jpg" title="Title #13">
-									<img src="http://farm3.static.flickr.com/2139/2083503622_5b17f16a60_s.jpg" alt="Title #13" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/05.jpg">
+									<img src="/img/tohkinpark_s/05.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #13</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm3.static.flickr.com/2139/2083503622_5b17f16a60_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm3.static.flickr.com/2041/2083498578_114e117aab.jpg" title="Title #14">
-									<img src="http://farm3.static.flickr.com/2041/2083498578_114e117aab_s.jpg" alt="Title #14" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/06.jpg">
+									<img src="/img/tohkinpark_s/06.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #14</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm3.static.flickr.com/2041/2083498578_114e117aab_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm3.static.flickr.com/2149/2082705341_afcdda0663.jpg" title="Title #15">
-									<img src="http://farm3.static.flickr.com/2149/2082705341_afcdda0663_s.jpg" alt="Title #15" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/20.jpg">
+									<img src="/img/tohkinpark_s/20.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #15</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm3.static.flickr.com/2149/2082705341_afcdda0663_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm3.static.flickr.com/2014/2083478274_26775114dc.jpg" title="Title #16">
-									<img src="http://farm3.static.flickr.com/2014/2083478274_26775114dc_s.jpg" alt="Title #16" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/21.jpg">
+									<img src="/img/tohkinpark_s/21.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #16</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm3.static.flickr.com/2014/2083478274_26775114dc_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm3.static.flickr.com/2194/2083464534_122e849241.jpg" title="Title #17">
-									<img src="http://farm3.static.flickr.com/2194/2083464534_122e849241_s.jpg" alt="Title #17" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/25.jpg">
+									<img src="/img/tohkinpark_s/25.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #17</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm3.static.flickr.com/2194/2083464534_122e849241_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm4.static.flickr.com/3127/2538173236_b704e7622e.jpg" title="Title #18">
-									<img src="http://farm4.static.flickr.com/3127/2538173236_b704e7622e_s.jpg" alt="Title #18" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/26.jpg">
+									<img src="/img/tohkinpark_s/26.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #18</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm4.static.flickr.com/3127/2538173236_b704e7622e_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm3.static.flickr.com/2375/2538172432_3343a47341.jpg" title="Title #19">
-									<img src="http://farm3.static.flickr.com/2375/2538172432_3343a47341_s.jpg" alt="Title #19" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/27.jpg">
+									<img src="/img/tohkinpark_s/27.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #19</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm3.static.flickr.com/2375/2538172432_3343a47341_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm3.static.flickr.com/2353/2083476642_d00372b96f.jpg" title="Title #20">
-									<img src="http://farm3.static.flickr.com/2353/2083476642_d00372b96f_s.jpg" alt="Title #20" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/28.jpg">
+									<img src="/img/tohkinpark_s/28.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #20</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm3.static.flickr.com/2353/2083476642_d00372b96f_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm3.static.flickr.com/2201/1502907190_7b4a2a0e34.jpg" title="Title #21">
-									<img src="http://farm3.static.flickr.com/2201/1502907190_7b4a2a0e34_s.jpg" alt="Title #21" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/29.jpg">
+									<img src="/img/tohkinpark_s/29.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #21</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm3.static.flickr.com/2201/1502907190_7b4a2a0e34_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm2.static.flickr.com/1116/1380178473_fc640e097a.jpg" title="Title #22">
-									<img src="http://farm2.static.flickr.com/1116/1380178473_fc640e097a_s.jpg" alt="Title #22" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/30.jpg">
+									<img src="/img/tohkinpark_s/30.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #22</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm2.static.flickr.com/1116/1380178473_fc640e097a_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
-	
 							<li>
-								<a class="thumb" href="http://farm2.static.flickr.com/1260/930424599_e75865c0d6.jpg" title="Title #23">
-									<img src="http://farm2.static.flickr.com/1260/930424599_e75865c0d6_s.jpg" alt="Title #23" />
+								<a class="thumb" name="leaf" href="/img/tohkinpark/32.jpg">
+									<img src="/img/tohkinpark_s/32.jpg"/>
 								</a>
-								<div class="caption">
-									<div class="image-title">Title #23</div>
-									<div class="image-desc">Description</div>
-									<div class="download">
-										<a href="http://farm2.static.flickr.com/1260/930424599_e75865c0d6_b.jpg">Download Original</a>
-									</div>
-								</div>
 							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/33.jpg">
+									<img src="/img/tohkinpark_s/33.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/34.jpg">
+									<img src="/img/tohkinpark_s/34.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/36.jpg">
+									<img src="/img/tohkinpark_s/36.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/46.jpg">
+									<img src="/img/tohkinpark_s/46.jpg"/>
+								</a>
+							</li>
+							
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/48.jpg">
+									<img src="/img/tohkinpark_s/48.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/49.jpg">
+									<img src="/img/tohkinpark_s/49.jpg"/>
+								</a>
+							</li>
+							
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/52.jpg">
+									<img src="/img/tohkinpark_s/52.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/53.jpg">
+									<img src="/img/tohkinpark_s/53.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/54.jpg">
+									<img src="/img/tohkinpark_s/54.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/45.jpg">
+									<img src="/img/tohkinpark_s/45.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/35.jpg">
+									<img src="/img/tohkinpark_s/35.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/38.jpg">
+									<img src="/img/tohkinpark_s/38.jpg"/>
+								</a>
+							</li>
+							<!--========================================================-->
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/50.jpg">
+									<img src="/img/tohkinpark_s/50.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/51.jpg">
+									<img src="/img/tohkinpark_s/51.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/47.jpg">
+									<img src="/img/tohkinpark_s/47.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/43.jpg">
+									<img src="/img/tohkinpark_s/43.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/44.jpg">
+									<img src="/img/tohkinpark_s/44.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/31.jpg">
+									<img src="/img/tohkinpark_s/31.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/23.jpg">
+									<img src="/img/tohkinpark_s/23.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/01.jpg">
+									<img src="/img/tohkinpark_s/01.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/02.jpg">
+									<img src="/img/tohkinpark_s/02.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/03.jpg">
+									<img src="/img/tohkinpark_s/03.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/19.jpg">
+									<img src="/img/tohkinpark_s/19.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a class="thumb" name="leaf" href="/img/tohkinpark/22.jpg">
+									<img src="/img/tohkinpark_s/22.jpg"/>
+								</a>
+							</li>
+							<!--========================================================-->
 						</ul>
 						<a class="pageLink next" style="visibility: hidden;" href="#" title="Next Page"></a>
 					</div>
@@ -353,7 +288,7 @@
 				// Initialize Advanced Galleriffic Gallery
 				var gallery = $('#thumbs').galleriffic({
 					delay:                     2500,
-					numThumbs:                 8,
+					numThumbs:                 6,
 					preloadAhead:              8,
 					enableTopPager:            false,
 					enableBottomPager:         false,
@@ -454,9 +389,6 @@
 
 				/****************************************************************************************/
 			});
-		</script>
-
-	</div>
-
+		</script>	</div>
 	<dir class="clear"></dir>
 </div><!--end mainbody-->

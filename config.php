@@ -37,7 +37,7 @@ $site = array(
 					"0" => array("title" => "人力资源"),
 					"1" => array("title" => "求职信息", "link" => "/careers/job", "inc" => 'content/careers_job.php'),
 					"2" => array("title" => "员工生活", "link" => "/careers/activity", "inc" => 'content/careers_activity.php'),
-					"3" => array("title" => "锦园介绍", "link" => "/careers/tohkinpark", "inc" => 'content/careers_tohkinpark.php')
+					"3" => array("title" => "锦园展示", "link" => "/careers/tohkinpark", "inc" => 'content/careers_tohkinpark.php')
 					),
 		"7" => array( 
 					"1" => array("title" => "联系我们", "link" => "/contact", "inc" => 'content/root_contact.php')
