@@ -269,7 +269,6 @@
 				</div>
 				<!-- End Gallery Html Containers -->
 				<dir class="clear"></dir>
-				<p>&copy; 2010 荣 All copy rights reserved.</p>
 			</div>
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
