@@ -33,8 +33,8 @@ a:hover { color: #777777; text-decoration: none; }
 .dotline { width: 900px; height: 1px; background: url("/img/dotline_h.png") no-repeat 0 0; }
 
 /* 页眉格式 */
-#header { width: 900px; height: 100px; background: url("/img/logo.png") no-repeat 20px 20px; }
-#searchform { float: right; margin-top: 15px; margin-right: 15px; }
+#header { width: 900px; height: 100px; background: url("/img/logo.png") no-repeat 20px 30px; }
+#searchform { float: right; margin-top: 15px; margin-right: 16px; }
 #searchinput { float: left; width: 120px; height: 17px; border:1px solid #cccccc; }
 #searchbutton { float: left; margin-left:3px; }
 
