@@ -24,7 +24,7 @@ RewriteRule ^news/history[/]?$ /index.php?pid=5&sid=2 [QSA,L]
 RewriteRule ^news/faq[/]?$ /index.php?pid=5&sid=3 [QSA,L]
 
 RewriteRule ^careers/job[/]?$ /index.php?pid=6&sid=1 [QSA,L]
-RewriteRule ^careers/activity[/]?$ /index.php?pid=6&sid=2&cat=7 [QSA,L]
+RewriteRule ^careers/activity[/]?$ /index.php?pid=6&sid=2 [QSA,L]
 RewriteRule ^careers/tohkinpark[/]?$ /index.php?pid=6&sid=3 [QSA,L]
 
 RewriteRule ^contact[/]?$ /index.php?pid=7&sid=1 [QSA,L]
