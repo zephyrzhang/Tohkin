@@ -1,6 +1,5 @@
 <div id="mainbody">
 <div id="banner_sitemap"></div>
-<div class="dotline"></div>
 <div id="sitemap">
 	<?php
 	for($pid=1; $pid < 7; $pid++)

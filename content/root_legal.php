@@ -1,6 +1,5 @@
 <div id="mainbody">
 <div id="banner_legal"></div>
-<div class="dotline"></div>
 <br/>
 <div id="legallist">
 	<?php query_posts('page_id=149'); ?>

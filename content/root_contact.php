@@ -1,6 +1,5 @@
 <div id="mainbody">
 <div id="banner_contact"></div>
-<div class="dotline"></div>
 <br />
 	<?php query_posts('page_id=144'); ?>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

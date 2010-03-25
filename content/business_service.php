@@ -1,6 +1,5 @@
 <div id="mainbody">
 	<div id="banner_service"></div>
-	<div class="dotline"></div>
 	<?php include("content/component_subnav.php");?>
 	<div id="right">
 		<?php query_posts('page_id=188'); ?>

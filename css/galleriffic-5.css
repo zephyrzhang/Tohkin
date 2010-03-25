@@ -1,5 +1,6 @@
 div#container {
 	overflow: hidden;
+	margin-top: 10px;
 }
 div.content {
 	display: none;
@@ -47,7 +48,7 @@ div.caption-container {
 div.slideshow-container {
 	position: relative;
 	clear: both;
-	height: 500px;
+	height: 640px;
 	width: 700px;
 	margin-left: auto;margin-right: auto;
 }
@@ -70,7 +71,7 @@ div.slideshow span.image-wrapper {
 }
 div.slideshow a.advance-link {
 	display: block;
-	line-height: 502px; /* This should be set to be at least the height of the largest image in the slideshow with padding */
+	line-height: 640px; /* This should be set to be at least the height of the largest image in the slideshow with padding */
 	text-align: center;
 }
 
