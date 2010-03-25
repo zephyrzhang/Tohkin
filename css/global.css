@@ -78,11 +78,11 @@ a:hover { color: #777777; text-decoration: none; }
 /* 推荐板块格式 */
 .featured {	width: 510px; float: left; margin: 20px 0px 20px 10px; /*background: url("/img/dotline_v.png") no-repeat 519px 0;*/ }
 .featured li { float: left; list-style-type: none; cursor: pointer; }
-.featured01 a { display: block; height: 212px; width: 150px; background: url("/img/ichimore.png") no-repeat 0 0; border: 8px solid #ffffff; }
+.featured01 a { display: block; height: 212px; width: 150px; background: url("/img/ichimore.jpg") no-repeat 0 0; border: 8px solid #ffffff; }
 .featured01 a:hover { border: 8px solid #e8ebef; }
-.featured02 a { display: block; height: 212px; width: 150px; background: url("/img/beautysay.png") no-repeat 0 0; border: 8px solid #ffffff; }
+.featured02 a { display: block; height: 212px; width: 150px; background: url("/img/beautysay.jpg") no-repeat 0 0; border: 8px solid #ffffff; }
 .featured02 a:hover { border: 8px solid #e8ebef; }
-.featured03 a { display: block; height: 212px; width: 150px; background: url("/img/rivercrest.png") no-repeat 0 0; border: 8px solid #ffffff; }
+.featured03 a { display: block; height: 212px; width: 150px; background: url("/img/rivercrest.jpg") no-repeat 0 0; border: 8px solid #ffffff; }
 .featured03 a:hover { border: 8px solid #e8ebef; }
 
 /* 新闻区域格式 */
@@ -100,9 +100,9 @@ a:hover { color: #777777; text-decoration: none; }
 
 /* 新闻中心 CSS Document Copyright 2009 ZephyrZhang All Rights Reserved*/
 
-#banner_milestone { width: 900px; height: 180px; background: url("/img/banner_milestone.png") no-repeat 0 0; }
-#banner_media { width: 900px; height: 180px; background: url("/img/banner_media.png") no-repeat 0 0; }
-#banner_faqs { width: 900px; height: 180px; background: url("/img/banner_faqs.png") no-repeat 0 0; }
+#banner_milestone { width: 900px; height: 180px; background: url("/img/banner_milestone.jpg") no-repeat 0 0; }
+#banner_media { width: 900px; height: 180px; background: url("/img/banner_media.jpg") no-repeat 0 0; }
+#banner_faqs { width: 900px; height: 180px; background: url("/img/banner_faqs.jpg") no-repeat 0 0; }
 
 #newslist { margin-top: 0px; }
 #newslist p { text-indent: 0; margin-bottom: 6px; }
@@ -127,10 +127,10 @@ a:hover { color: #777777; text-decoration: none; }
 .section { width: 710px; margin: 20px; float: left;	}
 
 /* 集团业务 */
-#banner_trade { width: 900px; height: 180px; background: url("/img/banner_trade.png") no-repeat 0 0; }
-#banner_manu { width: 900px; height: 180px; background: url("/img/banner_manu.png") no-repeat 0 0; }
-#banner_capital { width: 900px; height: 180px; background: url("/img/banner_capital.png") no-repeat 0 0; }
-#banner_service { width: 900px; height: 180px; background: url("/img/banner_service.png") no-repeat 0 0; }
+#banner_trade { width: 900px; height: 180px; background: url("/img/banner_trade.jpg") no-repeat 0 0; }
+#banner_manu { width: 900px; height: 180px; background: url("/img/banner_manu.jpg") no-repeat 0 0; }
+#banner_capital { width: 900px; height: 180px; background: url("/img/banner_capital.jpg") no-repeat 0 0; }
+#banner_service { width: 900px; height: 180px; background: url("/img/banner_service.jpg") no-repeat 0 0; }
 .company { margin-bottom: 20px; }
 .companylogo { width: 150px; height: 150px; border: 1px solid #f2f2f2; float: left; margin: 10px 0 0 0; }
 .companyintro { width: 570px; margin-left: 20px; float: left; }
@@ -139,32 +139,32 @@ a:hover { color: #777777; text-decoration: none; }
 .companyintro a:hover { color: #777777; text-decoration: none; }
 
 /* 关于我们 */
-#banner_welcome { width: 900px; height: 180px; background: url("/img/banner_welcome.png") no-repeat 0 0; }
-#banner_principle { width: 900px; height: 180px; background: url("/img/banner_philosophy.png") no-repeat 0 0; }
-#banner_introduction { width: 900px; height: 180px; background: url("/img/banner_introduction.png") no-repeat 0 0; }
-#banner_culture { width: 900px;; height: 180px; background: url("/img/banner_culture.png") no-repeat 0 0; }
-#groupstructure { width: 570px; height:380px;margin-left: auto; margin-right: auto; background: url("/img/groupstructure.png") no-repeat 0px 0px; }
+#banner_welcome { width: 900px; height: 180px; background: url("/img/banner_welcome.jpg") no-repeat 0 0; }
+#banner_principle { width: 900px; height: 180px; background: url("/img/banner_philosophy.jpg") no-repeat 0 0; }
+#banner_introduction { width: 900px; height: 180px; background: url("/img/banner_introduction.jpg") no-repeat 0 0; }
+#banner_culture { width: 900px;; height: 180px; background: url("/img/banner_culture.jpg") no-repeat 0 0; }
+#groupstructure { width: 570px; height:380px;margin-left: auto; margin-right: auto; background: url("/img/groupstructure.jpg") no-repeat 0px 0px; }
 h4 { font-size: 12px; padding-left: 12px; font-weight: bold; color: #3b73b9; line-height: 3; background:url("/img/bullet.png") no-repeat 0 50%; }
 h5 { font-size: 12px; padding-left: 12px; font-weight: bold; color: #333333; line-height: 2;}
 #about p { text-indent: 0; margin-left: 12px; }
 
 /* 人力资源 */
-#banner_job { width: 900px; height: 180px; background: url("/img/banner_job.png") no-repeat 0 0; }
-#banner_activity { width: 900px; height: 180px; background: url("/img/banner_activity.png") no-repeat 0 0; }
-#banner_jinyuan { width: 900px; height: 180px; background: url("/img/banner_jinyuan.png") no-repeat 0 0; }
+#banner_job { width: 900px; height: 180px; background: url("/img/banner_job.jpg") no-repeat 0 0; }
+#banner_activity { width: 900px; height: 180px; background: url("/img/banner_activity.jpg") no-repeat 0 0; }
+#banner_jinyuan { width: 900px; height: 180px; background: url("/img/banner_jinyuan.jpg") no-repeat 0 0; }
 
 /* 社会责任 */
-#banner_sustainable { width: 900px; height: 180px; background: url("/img/banner_sustainable.png") no-repeat 0 0; }
-#banner_public { width: 900px; height: 180px; background: url("/img/banner_public.png") no-repeat 0 0; }
-#banner_green { width: 900px; height: 180px; background: url("/img/banner_green.png") no-repeat 0 0; }
+#banner_sustainable { width: 900px; height: 180px; background: url("/img/banner_sustainable.jpg") no-repeat 0 0; }
+#banner_public { width: 900px; height: 180px; background: url("/img/banner_public.jpg") no-repeat 0 0; }
+#banner_green { width: 900px; height: 180px; background: url("/img/banner_green.jpg") no-repeat 0 0; }
 
-#banner_contact { width: 900px; height: 180px; background: url("/img/banner_contact.png") no-repeat 0 0; }
-#banner_sitemap { width: 900px; height: 180px; background: url("/img/banner_sitemap.png") no-repeat 0 0; }
-#banner_legal { width: 900px; height: 180px; background: url("/img/banner_legal.png") no-repeat 0 0; }
+#banner_contact { width: 900px; height: 180px; background: url("/img/banner_contact.jpg") no-repeat 0 0; }
+#banner_sitemap { width: 900px; height: 180px; background: url("/img/banner_sitemap.jpg") no-repeat 0 0; }
+#banner_legal { width: 900px; height: 180px; background: url("/img/banner_legal.jpg") no-repeat 0 0; }
 
 /* 网站地图 */
 #sitemap { margin: 10px 0 10px 20px; }
-.sitemapbox { color: #3b73b9; float: left; margin: 10px; padding: 12px; background: url("/img/dotline_v.png") no-repeat; height: 100px; }
+.sitemapbox { color: #3b73b9; float: left; margin: 10px; padding: 12px; background: url("/img/dotline_v.jpg") no-repeat; height: 100px; }
 
 .sitemapul { list-style: none; margin-top: 5px; width: 80px; }
 .sitemapul li { margin-left: 0px; text-decoration: none; }

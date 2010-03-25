@@ -1,10 +1,10 @@
 <div id="mainbody">
 	<div id="slider1">
 	    <ul id="slider1Content">
-	    	<li class="slider1Image"><img src="/img/main05.png" /><span class="hiddentxt">产品品质</span></li>
-	    	<li class="slider1Image"><img src="/img/main06.png" /><span class="hiddentxt">精益求精</span></li>
-	    	<li class="slider1Image"><img src="/img/main07.png" /><span class="hiddentxt">科技研发</span></li>
-	    	<li class="slider1Image"><img src="/img/main04.png" /><span class="hiddentxt">产品展示</span></li>
+	    	<li class="slider1Image"><img src="/img/main01.jpg" /><span class="hiddentxt">产品品质</span></li>
+	    	<li class="slider1Image"><img src="/img/main02.jpg" /><span class="hiddentxt">精益求精</span></li>
+	    	<li class="slider1Image"><img src="/img/main03.jpg" /><span class="hiddentxt">科技研发</span></li>
+	    	<li class="slider1Image"><img src="/img/main04.jpg" /><span class="hiddentxt">产品展示</span></li>
 	    	<li class="slider1Image"></li>
 	    </ul>
 	</div>
