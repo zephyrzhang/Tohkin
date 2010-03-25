@@ -1,14 +1,12 @@
 <div id="mainbody">
 <div id="banner_activity"></div>
-<div class="dotline"></div>
 	<?php include("content/component_subnav.php");?>
 	<div id="right">
-		<?php query_posts('page_id=133'); ?>
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<article class="post">
-				<?php the_content(); ?>
+				<h2><?php the_title(); ?><span class="pmeta">&nbsp;&nbsp;&nbsp;<?php edit_post_link('Edit'); ?></span></h2>
+				<?php the_content('Read the rest of this entry &raquo;'); ?><br/>
 			</article>
-		<?php edit_post_link('Edit', '<p id="edit_link">', '</p>'); ?>
 		<?php endwhile; endif; ?>
 	</div>
 	<dir class="clear"></dir>

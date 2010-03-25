@@ -47,7 +47,7 @@ div.caption-container {
 div.slideshow-container {
 	position: relative;
 	clear: both;
-	height: 640px;
+	height: 500px;
 	width: 700px;
 	margin-left: auto;margin-right: auto;
 }
@@ -66,6 +66,7 @@ div.slideshow span.image-wrapper {
 	top: 30px;
 	left: 0;
 	width: 700px;
+	display: block;
 }
 div.slideshow a.advance-link {
 	display: block;
