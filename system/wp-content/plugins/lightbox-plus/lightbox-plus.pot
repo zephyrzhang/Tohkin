@@ -1,0 +1,369 @@
+# Translation of the WordPress plugin   by .
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/lightbox-plus\n"
+"POT-Creation-Date: 2010-03-01 17:00+0000\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/admin-html.php:3
+msgid "About Lightbox Plus for WordPress"
+msgstr ""
+
+#: admin/admin-html.php:7
+msgid ""
+"Thank you for downloading and installing Lightbox Plus for WordPress<br /"
+"><br /><a href=\"http://www.23systems.net/plugins/lightbox-plus/\">Visit "
+"plugin site</a> | <a href=\"http://www.23systems.net/plugins/lightbox-plus/"
+"frequently-asked-questions/\">FAQ</a> | <a href=\"http://www.23systems.net/"
+"bbpress/forum/lightbox-plus\">Support</a> | <a href=\"http://twitter."
+"com/23systems\">Follow on Twitter</a> | <a href=\"http://www.facebook.com/"
+"pages/Austin-TX/23Systems-Web-Devsign/94195762502\">Add Facebook Page</a>"
+msgstr ""
+
+#: admin/admin-html.php:8
+msgid ""
+"Lightbox Plus implements ColorBox as a lightbox image overlay tool for "
+"WordPress.  ColorBox was created by Jack Moore of <a href=\"http://"
+"colorpowered.com/colorbox/\">Color Powered</a> and is licensed under the MIT "
+"License. Lightbox Plus allows you to easily integrate and customize a "
+"powerful and light-weight lightbox plugin for jQuery into your WordPress "
+"site.  You can easily create additional styles by adding a new folder to the "
+"css directory under <code>wp-content/plugins/lighbox-plus/css/</code> by "
+"duplicating and modifying any of the existing themes or using them as "
+"examples to create your own.  See the <a href=\"http://www.23systems.net/"
+"plugins/lightbox-plus/\">changelog</a> for important details on this upgrade."
+msgstr ""
+
+#: admin/admin-html.php:9
+msgid ""
+"Like many developers I spend a lot of my spare time working on WordPress "
+"plugins and themes and any donation to the cause is appreciated.  I know a "
+"lot of other developers do the same and I try to donate to them whenever I "
+"can.  As a developer I greatly appreciate any donation you can make to help "
+"support further development of quality plugins and themes for WordPress. "
+"<em>You have my sincere thanks and appreciation for using Lightbox Plus</em>."
+msgstr ""
+
+#: admin/admin-html.php:21
+msgid "Lightbox Plus Settings"
+msgstr ""
+
+#: admin/admin-html.php:27
+msgid "Lightbox Plus Style"
+msgstr ""
+
+#: admin/admin-html.php:40 admin/admin-html.php:53 admin/admin-html.php:93
+#: admin/admin-html.php:100 admin/admin-html.php:106 admin/admin-html.php:112
+#: admin/admin-html.php:141 admin/admin-html.php:148 admin/admin-html.php:154
+#: admin/admin-html.php:160 admin/admin-html.php:166 admin/admin-html.php:172
+#: admin/admin-html.php:178 admin/admin-html.php:194 admin/admin-html.php:200
+#: admin/admin-html.php:234 admin/admin-html.php:241 admin/admin-html.php:247
+#: admin/admin-html.php:262 admin/admin-html.php:268 admin/admin-html.php:274
+#: admin/admin-html.php:280
+msgid "Click for Help!"
+msgstr ""
+
+#: admin/admin-html.php:42
+msgid ""
+"Select Lightbox Plus theme/style here.<br /><strong><em>Default: Shadowed</"
+"em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:46
+msgid "Transition Type"
+msgstr ""
+
+#: admin/admin-html.php:54
+msgid ""
+"Specifies the transition type. Can be set to \"elastic\", \"fade\", or \"none"
+"\".<br /><strong><em>Default: Elastic</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:58
+msgid "Resize Speed"
+msgstr ""
+
+#: admin/admin-html.php:93
+msgid ""
+"Controls the speed of the fade and elastic transitions, in milliseconds.<br /"
+"><strong><em>Default: 350</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:98
+msgid "Maximum Width"
+msgstr ""
+
+#: admin/admin-html.php:100
+msgid ""
+"Set a maximum width for loaded content.  Example: \"75%\", \"500px\", 500, "
+"or false for no maximum width.  <strong><em>Default: false</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:104
+msgid "Maximum Height"
+msgstr ""
+
+#: admin/admin-html.php:106
+msgid ""
+"Set a maximum height for loaded content.  Example: \"75%\", \"500px\",, 500, "
+"or false for no maximum height. <strong><em>Default: false</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:110
+msgid "Resize"
+msgstr ""
+
+#: admin/admin-html.php:112
+msgid ""
+"If checked and if Maximum Width or Maximum Height have been defined, Lightbx "
+"Plus will resize photos to fit within the those values.<br /"
+"><strong><em>Default: Checked</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:116
+msgid "Overlay Opacity"
+msgstr ""
+
+#: admin/admin-html.php:141
+msgid ""
+"Controls transparency of shadow overlay. Lower numbers are more transparent."
+"<br /><strong><em>Default: 80%</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:146
+msgid "Pre-load images"
+msgstr ""
+
+#: admin/admin-html.php:148
+msgid ""
+"Allows for preloading of \"Next\" and \"Previous\" content in a shared "
+"relation group (same values for the \"rel\" attribute), after the current "
+"content has finished loading. Uncheck to disable.<br /><strong><em>Default: "
+"Checked</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:152
+msgid "Grouping Labels"
+msgstr ""
+
+#: admin/admin-html.php:154
+msgid ""
+"Text format for the content group / gallery count. {current} and {total} are "
+"detected and replaced with actual numbers while ColorBox runs."
+"<strong><em>Default: Image {current} of {total}</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:158
+msgid "Previous image text"
+msgstr ""
+
+#: admin/admin-html.php:160
+msgid ""
+"Text for the previous button in a shared relation group (same values for "
+"\"rel\" attribute). <strong><em>Default: previous</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:164
+msgid "Next image text"
+msgstr ""
+
+#: admin/admin-html.php:166
+msgid ""
+"Text for the next button in a shared relation group (same values for \"rel\" "
+"attribute).  <strong><em>Default: next</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:170
+msgid "Close image text"
+msgstr ""
+
+#: admin/admin-html.php:172
+msgid ""
+"Text for the close button. The \"Esc\" key will also close Lightbox Plus. "
+"<strong><em>Default: close</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:176
+msgid "Overlay Close"
+msgstr ""
+
+#: admin/admin-html.php:178
+msgid ""
+"If checked, enables closing Lightbox Plus by clicking on the background "
+"overlay.<br /><strong><em>Default: Checked</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:187
+msgid "Slideshow Settings:"
+msgstr ""
+
+#: admin/admin-html.php:192
+msgid "Slideshow"
+msgstr ""
+
+#: admin/admin-html.php:194
+msgid ""
+"If checked, adds slideshow capablity to a content group / gallery. <br /"
+"><strong><em>Default: Unchecked</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:198
+msgid "Auto-Start Slideshow"
+msgstr ""
+
+#: admin/admin-html.php:200
+msgid ""
+"If checked, the slideshows will automatically start to play when content "
+"grou opened. <br /><strong><em>Default: Checked</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:204
+msgid "Slideshow Speed"
+msgstr ""
+
+#: admin/admin-html.php:234
+msgid ""
+"Controls the speed of the slideshow, in milliseconds.<br /"
+"><strong><em>Default: 2500</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:239
+msgid "Slideshow start text"
+msgstr ""
+
+#: admin/admin-html.php:241
+msgid ""
+"Text for the slideshow start button. <strong><em>Default: start</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:245
+msgid "Slideshow stop text"
+msgstr ""
+
+#: admin/admin-html.php:247
+msgid ""
+"Text for the slideshow stop button.  <strong><em>Default: stop</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:256
+msgid "Other Lightbox Plus Settings:"
+msgstr ""
+
+#: admin/admin-html.php:260
+msgid "Use For WP Gallery"
+msgstr ""
+
+#: admin/admin-html.php:262
+msgid ""
+"If checked, Lightbox Plus will add the Lightboxing feature to the WordPress "
+"built in gallery feature.  In order for this to work correcly you must set "
+"<strong>Link thumbnails to: Image File</strong> or use <code>[gallery link="
+"\"file\"</code> for the gallery options.<br /><strong><em>Default: "
+"Unchecked</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:266
+msgid "Use Class Method"
+msgstr ""
+
+#: admin/admin-html.php:268
+msgid ""
+"If checked, Lightbox Plus will only lightbox images via <code>class: "
+"cboxModal</code> attribute.  Using this method you can manually control "
+"which images are affected by Lightbox Plus by adding the cboxModal class to "
+"the Advanced Link Settings in the WordPress Edit Image tool or by adding it "
+"to the image link URL and checking the <strong>Do Not Auto-Lightbox Images</"
+"strong> option.<br /><strong><em>Default: Unchecked</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:272
+msgid "<strong>Do Not</strong> Auto-Lightbox Images"
+msgstr ""
+
+#: admin/admin-html.php:274
+msgid ""
+"If checked, Lightbox Plus <em>will not</em> automatically add appropriate "
+"attibutes (either <code>rel=\"lightbox[postID]\"</code> or <code>class: "
+"cboxModal</code>) to Image URL.  You will need to manually add the "
+"appropriate attribute for Lightbox Plus to work.<br /><strong><em>Default: "
+"Unchecked</em></strong>"
+msgstr ""
+
+#: admin/admin-html.php:278
+msgid "<strong>Do Not</strong> Display Image Title"
+msgstr ""
+
+#: admin/admin-html.php:280
+msgid ""
+"If checked, Lightbox Plus <em>will not</em> display image titles "
+"automatically.  This has no effect if the <strong>Do Not Auto-Lightbox "
+"Images</strong> option is checked.<br /><strong><em>Default: Unchecked</em></"
+"strong>"
+msgstr ""
+
+#: admin/admin-html.php:288
+msgid "Save settings"
+msgstr ""
+
+#: admin/admin-html.php:295 admin/admin-html.php:302
+msgid "Reset/Re-initialize Lightbox Plus"
+msgstr ""
+
+#: admin/admin-html.php:299
+msgid ""
+"This will immediately remove all existing settings and any files for "
+"versions of Lightbox Plus prior to version 1.5 and will also re-initialize "
+"the plugin with the new default options. Be absolutely certain you want to "
+"do this. <br /><strong><em>If you are upgrading from a version prior to 1.4 "
+"it is <strong><em>highly</em></strong> recommended that you reinitialize "
+"Lightbox Plus</em></strong>"
+msgstr ""
+
+#: lightboxplus.php:101
+msgid "Settings"
+msgstr ""
+
+#: lightboxplus.php:102
+msgid "FAQ"
+msgstr ""
+
+#: lightboxplus.php:103
+msgid "Support"
+msgstr ""
+
+#: lightboxplus.php:104
+msgid "Donate"
+msgstr ""
+
+#: lightboxplus.php:105
+msgid "Follow on Twitter"
+msgstr ""
+
+#: lightboxplus.php:106
+msgid "Facebook Page"
+msgstr ""
+
+#: lightboxplus.php:488
+msgid "<p><strong>Lightbox Plus settings have been saved</strong></p></div>"
+msgstr ""
+
+#: lightboxplus.php:492
+msgid ""
+" <p><strong>Lightbox Plus has been reset to default settings.</strong></p></"
+"div>"
+msgstr ""
+
+#: lightboxplus.php:500
+msgid "Lightbox Plus Options v1.7 (ColorBox v1.3.6)"
+msgstr ""

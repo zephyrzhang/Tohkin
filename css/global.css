@@ -2,18 +2,15 @@
 
 * { margin: 0; padding: 0; }
 html { overflow-y: scroll; }
-body { text-align: left; font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, Sans-serif; font-size:12px; color: #333333; background-color: #e8ebef; }
+body { text-align: left;  font: 100% Arial, Helvetica; font-size: 12px; color: #333333; background-color: #e8ebef; }
 p { text-align: justify; font-size: 12px; line-height: 20px; margin-bottom:14px; text-indent:24px}
 h2 { text-align: justify; font-size: 12px; color: #3b73b9; }
 h3 { font-size: 12px; line-height: 3; color: #000000; }
-
-
 
 .bullet { background:url("/img/bullet.png") no-repeat 0 50%; padding-left: 12px; }
 
 ul, ol, li, dl, dt, dd { margin:0; padding:0; line-height: 20px;}
 li { list-style:none; }
-
 
 img { border: none; outline: none; }
 input { outline: none; }
@@ -33,7 +30,7 @@ a:hover { color: #777777; text-decoration: none; }
 .dotline { width: 900px; height: 1px; background: url("/img/dotline_h.png") no-repeat 0 0; }
 
 /* 页眉格式 */
-#header { width: 900px; height: 120px; background: url("/img/logo.png") no-repeat 20px 30px; }
+#header { width: 900px; height: 120px; background: url("/img/logo.png") no-repeat 20px 35px; }
 #searchform { float: right; margin-top: 40px; margin-right: 34px; }
 #searchinput { float: left; width: 150px; height: 17px; border:1px solid #cccccc; }
 #searchbutton { float: left; margin-left:4px; }
@@ -145,7 +142,7 @@ a:hover { color: #777777; text-decoration: none; }
 #banner_culture { width: 900px;; height: 180px; background: url("/img/banner_culture.jpg") no-repeat 0 0; }
 #groupstructure { width: 570px; height:380px;margin-left: auto; margin-right: auto; background: url("/img/groupstructure.jpg") no-repeat 0px 0px; }
 h4 { font-size: 12px; padding-left: 12px; font-weight: bold; color: #3b73b9; line-height: 3; background:url("/img/bullet.png") no-repeat 0 50%; }
-h5 { font-size: 12px; padding-left: 12px; font-weight: bold; color: #333333; line-height: 2;}
+h5 { font-size: 12px; padding-left: 12px; font-weight: bold; color: #333333; line-height: 2; }
 #about p { text-indent: 0; margin-left: 12px; }
 
 /* 人力资源 */

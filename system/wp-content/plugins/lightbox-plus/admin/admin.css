@@ -1,0 +1,130 @@
+.notice{
+  background: #dff0f5 url(information.png) center no-repeat;
+  background-position: 15px 50%; /* x-pos y-pos */
+  text-align: left;
+  border: 1px solid #3796b3;
+  display: block;
+  padding: 5px 20px 5px 45px;
+  color: #046380;
+  width: 90%;
+  margin: 10px auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+}
+
+.about{
+  background: #dff0f5;
+  text-align: left;
+  border: 1px solid #3796b3;
+  display: block;
+  padding: 5px 20px 5px 20px;
+  color: #046380;
+  width: 90%;
+  margin: 10px auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+}
+
+.alert{
+  background: #e6e2af url(exclamation.png) center no-repeat;
+  background-position: 15px 50%; /* x-pos y-pos */
+  text-align: left;
+  border: 1px solid #a7a37e;
+  display: block;
+  padding: 5px 20px 5px 45px;
+  color: #736d4d;
+  width: 90%;
+  margin: 10px auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+}
+
+.notice h3,.about h3{
+  font-weight: bold;
+  font-size: 1.2em;
+  display: block;
+}
+
+.notice h4,.about h4{
+  font-weight: bold;
+  font-size: 1.1em;
+  display: block;
+}
+
+.notice h5,.about h5{
+  font-weight: bold;
+  font-size: 1.0em;
+  display: block;
+}
+
+/*---- lbp CSS Document ----*/
+.widefat thead th a {
+	color:#d7d7d7 !important;
+	text-decoration:underline;
+}
+.widefat tr {
+	padding: 0;
+}
+.error
+{
+	padding:12px;
+}
+.wrap.alternate {
+	margin-bottom:1.5em;
+	padding:0 0 0 8px;
+}
+.lbpbox.closed .inside {
+	display:none;
+}
+.lbpbox {
+	border:1px solid #CCCCCC;
+	clear:both;
+	margin:15px 5%;
+	padding:1em;
+}
+#poststuff.lbp {
+	margin:0 !important;
+}
+.lbpbox a.togbox {
+	border:1px solid #ccc;
+	background:#fff;
+	color:#999;
+	padding:2px 4px;
+	text-decoration:none;
+	cursor:pointer;
+}
+.lbpbox.closed a.togbox {
+	padding:2px 4px;
+	text-decoration:none;
+	background:#000097;
+	color:#fff;
+	border-top:1px solid #0000DB;
+	border-left:1px solid #0000DB;
+	border-bottom:1px solid #000075;
+	border-right:1px solid #000075;
+	cursor:pointer;
+}
+a.togbox:hover {
+	border:1px solid #ccc;
+	background:#fff;
+	color:#999;
+}
+.lbp-info {
+  cursor:pointer;
+  top: 0;
+}
+.lbp-tip {
+  max-width:500px;
+  text-align:left;
+  display:none;
+}
+.lbp input {
+  max-width:500px;
+}
+.lbp-elements {
+  max-width:500px;
+  text-align:left;
+}

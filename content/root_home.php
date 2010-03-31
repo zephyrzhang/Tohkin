@@ -4,7 +4,6 @@
 	    	<li class="slider1Image"><img src="/img/main01.jpg" /><span class="hiddentxt">产品品质</span></li>
 	    	<li class="slider1Image"><img src="/img/main02.jpg" /><span class="hiddentxt">精益求精</span></li>
 	    	<li class="slider1Image"><img src="/img/main03.jpg" /><span class="hiddentxt">科技研发</span></li>
-	    	<li class="slider1Image"><img src="/img/main04.jpg" /><span class="hiddentxt">产品展示</span></li>
 	    	<li class="slider1Image"></li>
 	    </ul>
 	</div>
