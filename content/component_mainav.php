@@ -24,6 +24,7 @@ switch ($pid)
 				<li><a href="<?php echo $site[2][2][link]?>"><?php echo $site[2][2][title]?></a></li>
 				<li><a href="<?php echo $site[2][3][link]?>"><?php echo $site[2][3][title]?></a></li>
 				<li><a href="<?php echo $site[2][4][link]?>"><?php echo $site[2][4][title]?></a></li>
+				<li><a href="<?php echo $site[2][5][link]?>"><?php echo $site[2][5][title]?></a></li>
 			</ul>
 		</li>
 		<li class="dropdown"><a href="<?php echo $site[3][1][link]?>"<?php echo $status03;?>><?php echo $site[3][0][title]?></a>
@@ -40,7 +41,6 @@ switch ($pid)
 				<li><a href="<?php echo $site[4][1][link]?>"><?php echo $site[4][0][title]?></a></li>
 				<li><a href="<?php echo $site[4][1][link]?>"><?php echo $site[4][1][title]?></a></li>
 				<li><a href="<?php echo $site[4][2][link]?>"><?php echo $site[4][2][title]?></a></li>
-				<li><a href="<?php echo $site[4][3][link]?>"><?php echo $site[4][3][title]?></a></li>
 			</ul>
 		</li>
 		<li class="dropdown"><a href="<?php echo $site[5][1][link]?>"<?php echo $status05;?>><?php echo $site[5][0][title]?></a>
@@ -48,7 +48,6 @@ switch ($pid)
 				<li><a href="<?php echo $site[5][1][link]?>"><?php echo $site[5][0][title]?></a></li>
 				<li><a href="<?php echo $site[5][1][link]?>"><?php echo $site[5][1][title]?></a></li>
 				<li><a href="<?php echo $site[5][2][link]?>"><?php echo $site[5][2][title]?></a></li>
-				<li><a href="<?php echo $site[5][3][link]?>"><?php echo $site[5][3][title]?></a></li>
 			</ul>
 		</li>
 		<li class="dropdown"><a href="<?php echo $site[6][1][link]?>"<?php echo $status06;?>><?php echo $site[6][0][title]?></a>
@@ -56,7 +55,6 @@ switch ($pid)
 				<li><a href="<?php echo $site[6][1][link]?>"><?php echo $site[6][0][title]?></a></li>
 				<li><a href="<?php echo $site[6][1][link]?>"><?php echo $site[6][1][title]?></a></li>
 				<li><a href="<?php echo $site[6][2][link]?>"><?php echo $site[6][2][title]?></a></li>
-				<li><a href="<?php echo $site[6][3][link]?>"><?php echo $site[6][3][title]?></a></li>
 			</ul>
 		</li>
 	</ul>

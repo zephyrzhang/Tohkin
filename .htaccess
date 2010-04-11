@@ -9,6 +9,7 @@ RewriteRule ^about/welcome[/]?$ /index.php?pid=2&sid=1 [QSA,L]
 RewriteRule ^about/intro[/]?$ /index.php?pid=2&sid=2 [QSA,L]
 RewriteRule ^about/principle[/]?$ /index.php?pid=2&sid=3 [QSA,L]
 RewriteRule ^about/culture[/]?$ /index.php?pid=2&sid=4 [QSA,L]
+RewriteRule ^about/tohkinpark[/]?$ /index.php?pid=2&sid=5 [QSA,L]
 
 RewriteRule ^business/trading[/]?$ /index.php?pid=3&sid=1 [QSA,L]
 RewriteRule ^business/manufacture[/]?$ /index.php?pid=3&sid=2 [QSA,L]
@@ -16,16 +17,13 @@ RewriteRule ^business/capital[/]?$ /index.php?pid=3&sid=3 [QSA,L]
 RewriteRule ^business/service[/]?$ /index.php?pid=3&sid=4 [QSA,L]
 
 RewriteRule ^csr/green[/]?$ /index.php?pid=4&sid=1 [QSA,L]
-RewriteRule ^csr/development[/]?$ /index.php?pid=4&sid=2 [QSA,L]
-RewriteRule ^csr/contribute[/]?$ /index.php?pid=4&sid=3 [QSA,L]
+RewriteRule ^csr/contribute[/]?$ /index.php?pid=4&sid=2 [QSA,L]
 
 RewriteRule ^news/event[/]?$ /index.php?pid=5&sid=1&cat=1 [QSA,L]
 RewriteRule ^news/history[/]?$ /index.php?pid=5&sid=2 [QSA,L]
-RewriteRule ^news/faq[/]?$ /index.php?pid=5&sid=3 [QSA,L]
 
 RewriteRule ^careers/job[/]?$ /index.php?pid=6&sid=1 [QSA,L]
 RewriteRule ^careers/activity[/]?$ /index.php?pid=6&sid=2 [QSA,L]
-RewriteRule ^careers/tohkinpark[/]?$ /index.php?pid=6&sid=3 [QSA,L]
 
 RewriteRule ^contact[/]?$ /index.php?pid=7&sid=1 [QSA,L]
 RewriteRule ^legal[/]?$ /index.php?pid=8&sid=1 [QSA,L]

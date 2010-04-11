@@ -9,9 +9,9 @@
 	</div>
 <!--<div class="dotline"></div>-->
 		<ul class="featured">
-			<li class="featured01"><a href="http://www.ichimore.com/" target="black"><span class="hiddentxt">日加满</span></a></li>
-			<li class="featured02"><a href="http://www.ichimorelady.com/" target="black"><span class="hiddentxt">娇源</span></a></li>
-			<li class="featured03"><a href="http://www.tohzen.com/" target="black"><span class="hiddentxt">利弗兰酒</span></a></li>
+			<li class="featured01"><a href="<?php echo $site[2][2][link]?>" ><span class="hiddentxt">集团简介</span></a></li>
+			<li class="featured02"><a href="<?php echo $site[3][2][link]?>" ><span class="hiddentxt">东锦饮品</span></a></li>
+			<li class="featured03"><a href="<?php echo $site[2][5][link]?>" ><span class="hiddentxt">锦园展示</span></a></li>
 			<div class="clear"></div>
 		</ul>
 	<div class="newszone">

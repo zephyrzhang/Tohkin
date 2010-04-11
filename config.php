@@ -13,6 +13,7 @@ $site = array(
 				 	"2" => array("title" => "集团简介", "link" => "/about/intro", "inc" => 'content/about_intro.php'),
 				 	"3" => array("title" => "经营理念", "link" => "/about/principle", "inc" => 'content/about_principle.php'),
 				 	"4" => array("title" => "企业文化", "link" => "/about/culture", "inc" => 'content/about_culture.php'),
+				 	"5" => array("title" => "锦园展示", "link" => "/about/tohkinpark", "inc" => 'content/about_tohkinpark.php')
 					),
 		"3" => array(
 					"0" => array("title" => "集团业务"),
@@ -24,20 +25,17 @@ $site = array(
 		"4" => array(
 					"0" => array("title" => "社会责任"),
 				 	"1" => array("title" => "绿色东锦", "link" => "/csr/green", "inc" => 'content/csr_green.php'),
-				 	"2" => array("title" => "可持续发展", "link" => "/csr/development", "inc" => 'content/csr_development.php'),
-				 	"3" => array("title" => "公益事业", "link" => "/csr/contribute", "inc" => 'content/csr_contribute.php')
+				 	"2" => array("title" => "公益事业", "link" => "/csr/contribute", "inc" => 'content/csr_contribute.php')
 					),
 		"5" => array(
 					"0" => array("title" => "新闻中心"),
 					"1" => array("title" => "集团动态", "link" => "/news/event", "inc" => 'content/news_event.php'),
-					"2" => array("title" => "大事记", "link" => "/news/history", "inc" => 'content/news_history.php'),
-					"3" => array("title" => "问答FAQ", "link" => "/news/faq", "inc" => 'content/news_faq.php')
+					"2" => array("title" => "大事记", "link" => "/news/history", "inc" => 'content/news_history.php')
 					),
 		"6" => array(
 					"0" => array("title" => "人力资源"),
 					"1" => array("title" => "求职信息", "link" => "/careers/job", "inc" => 'content/careers_job.php'),
-					"2" => array("title" => "员工生活", "link" => "/careers/activity", "inc" => 'content/careers_activity.php'),
-					"3" => array("title" => "锦园展示", "link" => "/careers/tohkinpark", "inc" => 'content/careers_tohkinpark.php')
+					"2" => array("title" => "员工生活", "link" => "/careers/activity", "inc" => 'content/careers_activity.php')
 					),
 		"7" => array( 
 					"1" => array("title" => "联系我们", "link" => "/contact", "inc" => 'content/root_contact.php')

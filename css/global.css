@@ -75,11 +75,11 @@ a:hover { color: #777777; text-decoration: none; }
 /* 推荐板块格式 */
 .featured {	width: 510px; float: left; margin: 20px 0px 20px 10px; /*background: url("/img/dotline_v.png") no-repeat 519px 0;*/ }
 .featured li { float: left; list-style-type: none; cursor: pointer; }
-.featured01 a { display: block; height: 212px; width: 150px; background: url("/img/ichimore.jpg") no-repeat 0 0; border: 8px solid #ffffff; }
+.featured01 a { display: block; height: 212px; width: 150px; background: url("/img/show01.jpg") no-repeat 0 0; border: 8px solid #ffffff; }
 .featured01 a:hover { border: 8px solid #e8ebef; }
-.featured02 a { display: block; height: 212px; width: 150px; background: url("/img/beautysay.jpg") no-repeat 0 0; border: 8px solid #ffffff; }
+.featured02 a { display: block; height: 212px; width: 150px; background: url("/img/show02.jpg") no-repeat 0 0; border: 8px solid #ffffff; }
 .featured02 a:hover { border: 8px solid #e8ebef; }
-.featured03 a { display: block; height: 212px; width: 150px; background: url("/img/rivercrest.jpg") no-repeat 0 0; border: 8px solid #ffffff; }
+.featured03 a { display: block; height: 212px; width: 150px; background: url("/img/show03.jpg") no-repeat 0 0; border: 8px solid #ffffff; }
 .featured03 a:hover { border: 8px solid #e8ebef; }
 
 /* 新闻区域格式 */
